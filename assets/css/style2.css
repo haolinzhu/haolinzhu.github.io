@@ -1,0 +1,250 @@
+body {
+  background: #F6F6F6;
+}
+
+#header-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.tab {
+  height: 30px;
+  width: 190px;
+  margin-right: 30px;
+  padding-top: 10px;
+  background: #D6D6D6;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+#isis-header:hover {
+  color: white;
+  background: #000000;
+
+}
+
+#governmentheader:hover {
+  color: white;
+  background: #EBAEAE;
+}
+
+#opposition-header:hover {
+  color: white;
+  background: #95DB9A;
+}
+
+#islamist-header:hover {
+  color: white;
+  background: #848a86;
+}
+
+#kurds-header:hover {
+  color: white;
+  background: #E0E069;
+}
+
+#international:hover {
+  color: white;
+  background: #89C9F0;
+}
+
+#foreign-container1 {
+  width: 340px;
+  height: 95px;
+  border-radius: 25px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #D6D6D6;
+  background: #F6F6F6;
+
+  margin-top: 30px;
+  margin-left: 110px;
+  margin-right: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+#foreign-container2 {
+  width: 430px;
+  height: 95px;
+  border-radius: 25px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #D6D6D6;
+  background: #F6F6F6;
+
+  margin-top: 60px;
+  margin-left: 940px;
+  margin-right: 300px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.foreign {
+  margin-top: 15px;
+  margin-right: 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.country {
+  margin-top: 5px;
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  width: 105px;
+}
+
+.flag {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.flag:hover {
+  -webkit-filter: none;
+  filter: none;
+}
+
+#government-container {
+  width: 380px;
+  height: 400px;
+  border-radius: 25px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #D6D6D6;
+  background: #F6F6F6;
+
+
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.government {
+  margin-left: 15px;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#kurds-container {
+  width: 290px;
+  height: 270px;
+  border-radius: 25px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #D6D6D6;
+  background: #F6F6F6;
+
+  margin-top: 40px;
+  margin-left: 550px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.kurds {
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#islamist-container {
+  width: 260px;
+  height: 270px;
+  border-radius: 25px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #D6D6D6;
+  background: #F6F6F6;
+
+  margin-top: -240px;
+  margin-left: 700px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.islamist {
+  margin-top: 20px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#isis-container {
+  width: 150px;
+  height: 130px;
+  border-radius: 25px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #D6D6D6;
+  background: #F6F6F6;
+
+  margin-top: -500px;
+  margin-left: 490px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.isis {
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+#opposition-container {
+  width: 380px;
+  height: 330px;
+  border-radius: 25px;
+  border-width: 4px;
+  border-style: solid;
+  border-color: #D6D6D6;
+  background: #F6F6F6;
+
+  margin-top: -550px;
+  margin-left: 1000px;
+  margin-right: 100px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
+.opposition {
+  margin-left: 10px;
+  margin-top: 20px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
