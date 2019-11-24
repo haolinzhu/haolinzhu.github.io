@@ -28,12 +28,12 @@ body {
 
 #governmentheader:hover {
   color: white;
-  background: #EBAEAE;
+  background: #EB8A8A;
 }
 
 #opposition-header:hover {
   color: white;
-  background: #95DB9A;
+  background: #74DB7B;
 }
 
 #islamist-header:hover {
@@ -121,7 +121,7 @@ body {
   background: #F6F6F6;
 
 
-  margin-top: 100px;
+  margin-top: 70px;
   margin-left: 50px;
   margin-right: 100px;
   display: flex;
@@ -147,7 +147,7 @@ body {
   border-color: #D6D6D6;
   background: #F6F6F6;
 
-  margin-top: 40px;
+  margin-top: 50px;
   margin-left: 550px;
   margin-right: 100px;
   display: flex;
@@ -175,8 +175,8 @@ body {
   border-color: #D6D6D6;
   background: #F6F6F6;
 
-  margin-top: -240px;
-  margin-left: 700px;
+  margin-top: -260px;
+  margin-left: 690px;
   margin-right: 100px;
   display: flex;
   flex-direction: row;
@@ -247,4 +247,64 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+hr.line1{
+  position: absolute;
+	border-top: 3px solid #D6D6D6;
+  width: 235px;
+  margin-top: -70px;
+  margin-left: 455px;
+}
+
+hr.line2{
+  position: absolute;
+	border-top: 3px solid #D6D6D6;
+  width: 110px;
+  margin-top: 35px;
+  margin-left: 200px;
+  transform: rotate(90deg);
+}
+
+hr.line3{
+  position: absolute;
+	border-top: 3px solid #D6D6D6;
+  width: 60px;
+  margin-top: 10px;
+  margin-left: 240px;
+  transform: rotate(90deg);
+}
+
+hr.line4{
+  position: absolute;
+	border-top: 3px solid #D6D6D6;
+  width: 220px;
+  margin-top: 40px;
+  margin-left: 270px;
+}
+
+hr.line5{
+  position: absolute;
+	border-top: 3px solid #D6D6D6;
+  width: 115px;
+  margin-top: 340px;
+  margin-left: 435px;
+}
+
+hr.line6{
+  position: absolute;
+	border-top: 3px solid #D6D6D6;
+  width: 83px;
+  margin-top: 325px;
+  margin-left: 435px;
+}
+
+hr.line7{
+  position: absolute;
+	border-top: 3px solid #D6D6D6;
+  width: 193px;
+  margin-top: 230px;
+  margin-left: 420px;
+  transform: rotate(90deg);
+
 }
