@@ -167,7 +167,7 @@ body {
 }
 
 #islamist-container {
-  width: 260px;
+  width: 250px;
   height: 270px;
   border-radius: 25px;
   border-width: 4px;
@@ -186,11 +186,13 @@ body {
 }
 
 .islamist {
-  margin-top: 20px;
+  margin-top: 10px;
   margin-right: 10px;
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: center;
+
 }
 
 #isis-container {
@@ -291,7 +293,7 @@ hr.line5{
   margin-left: 435px;
 }
 
-hr.line6{
+hr.line7{
   position: absolute;
 	border-top: 3px solid #D6D6D6;
   width: 83px;
@@ -299,7 +301,7 @@ hr.line6{
   margin-left: 435px;
 }
 
-hr.line7{
+hr.line6{
   position: absolute;
 	border-top: 3px solid #D6D6D6;
   width: 193px;
@@ -307,4 +309,12 @@ hr.line7{
   margin-left: 420px;
   transform: rotate(90deg);
 
+}
+
+hr.line8{
+  position: absolute;
+	border-top: 3px solid #D6D6D6;
+  width: 55px;
+  margin-top: 70px;
+  margin-left: 945px;
 }

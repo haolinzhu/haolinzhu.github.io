@@ -8,8 +8,8 @@ function govtheaderClicked() {
   }
 
   document.getElementById("l5").style.borderTop = "3px solid #DEDE8E";
-  document.getElementById("l6").style.borderTop = "3px solid #95DB9A";
-  document.getElementById("l6").style.borderTop = "3px solid #95DB9A";
+  document.getElementById("l6").style.borderTop = "3px solid #EBAEAE";
+  document.getElementById("l7").style.borderTop = "3px solid #EBAEAE";
 
 }
 
@@ -20,6 +20,8 @@ function oppoheaderClicked() {
   for (let i = 1; i < 8; i ++) {
     document.getElementById("oppo" + i).style.filter = "none";
   }
+  document.getElementById("l8").style.borderTop = "3px solid #DEDE8E";
+
 }
 
 function islamheaderClicked() {
@@ -29,6 +31,8 @@ function islamheaderClicked() {
   for (let i = 1; i < 4; i ++) {
     document.getElementById("i" + i).style.filter = "none";
   }
+  document.getElementById("l8").style.borderTop = "3px solid #DEDE8E";
+
 }
 
 function kurdsheaderClicked() {
@@ -47,8 +51,8 @@ function isisheaderClicked() {
   document.getElementById("isis-header").style.color = "white";
   document.getElementById("is").style.filter = "none";
 
-  document.getElementById("l6").style.borderTop = "3px solid #95DB9A";
-  document.getElementById("l6").style.borderTop = "3px solid #95DB9A";
+  document.getElementById("l6").style.borderTop = "3px solid #EBAEAE";
+  document.getElementById("l7").style.borderTop = "3px solid #EBAEAE";
 }
 
 function intheaderClicked() {
