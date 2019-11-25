@@ -21,7 +21,6 @@ function oppoheaderClicked() {
     document.getElementById("oppo" + i).style.filter = "none";
   }
   document.getElementById("l8").style.borderTop = "3px solid #DEDE8E";
-
 }
 
 function islamheaderClicked() {
@@ -32,6 +31,11 @@ function islamheaderClicked() {
     document.getElementById("i" + i).style.filter = "none";
   }
   document.getElementById("l8").style.borderTop = "3px solid #DEDE8E";
+  document.getElementById("l9").style.borderTop = "3px solid #EBAEAE";
+  document.getElementById("l11").style.borderTop = "3px solid #EBAEAE";
+  document.getElementById("l22").style.borderTop = "3px solid #EBAEAE";
+  document.getElementById("l23").style.borderTop = "3px solid #EBAEAE";
+
 
 }
 
@@ -42,6 +46,7 @@ function kurdsheaderClicked() {
     document.getElementById("k" + i).style.filter = "none";
   }
   document.getElementById("l5").style.borderTop = "3px solid #DEDE8E";
+  document.getElementById("l15").style.borderTop = "3px solid #EBAEAE";
 
 }
 
@@ -53,19 +58,43 @@ function isisheaderClicked() {
 
   document.getElementById("l6").style.borderTop = "3px solid #EBAEAE";
   document.getElementById("l7").style.borderTop = "3px solid #EBAEAE";
+  document.getElementById("l9").style.borderTop = "3px solid #EBAEAE";
+  document.getElementById("l15").style.borderTop = "3px solid #EBAEAE";
+  document.getElementById("l16").style.borderTop = "3px solid #EBAEAE";
+  document.getElementById("l17").style.borderTop = "3px solid #EBAEAE";
+  document.getElementById("l18").style.borderTop = "3px solid #EBAEAE";
+  document.getElementById("l19").style.borderTop = "3px solid #EBAEAE";
+  document.getElementById("l20").style.borderTop = "3px solid #EBAEAE";
+  document.getElementById("l21").style.borderTop = "3px solid #EBAEAE";
+
+
 }
 
 function intheaderClicked() {
   document.getElementById("international").style.background = "#89C9F0";
   document.getElementById("foreign-container1").style.borderColor = "#89C9F0";
   document.getElementById("foreign-container2").style.borderColor = "#89C9F0";
-  for (let i = 1; i < 8; i ++) {
+  document.getElementById("foreign-container3").style.borderColor = "#89C9F0";
+  for (let i = 1; i < 7; i ++) {
     document.getElementById("int" + i).style.filter = "none";
   }
   document.getElementById("l1").style.borderTop = "3px solid #EBAEAE";
   document.getElementById("l2").style.borderTop = "3px solid #95DB9A";
   document.getElementById("l3").style.borderTop = "3px solid #EBAEAE";
   document.getElementById("l4").style.borderTop = "3px solid #EBAEAE";
+  document.getElementById("l10").style.borderTop = "3px solid #EBAEAE";
+  document.getElementById("l12").style.borderTop = "3px solid #95DB9A";
+  document.getElementById("l13").style.borderTop = "3px solid #95DB9A";
+  document.getElementById("l16").style.borderTop = "3px solid #EBAEAE";
+  document.getElementById("l17").style.borderTop = "3px solid #EBAEAE";
+  document.getElementById("l18").style.borderTop = "3px solid #EBAEAE";
+  document.getElementById("l19").style.borderTop = "3px solid #EBAEAE";
+  document.getElementById("l20").style.borderTop = "3px solid #EBAEAE";
+  document.getElementById("l21").style.borderTop = "3px solid #EBAEAE";
+  document.getElementById("l11").style.borderTop = "3px solid #EBAEAE";
+  document.getElementById("l22").style.borderTop = "3px solid #EBAEAE";
+  document.getElementById("l23").style.borderTop = "3px solid #EBAEAE";
+
 
 }
 
