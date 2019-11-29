@@ -29,6 +29,11 @@ function oppoheaderClicked() {
   document.getElementById("l29").style.borderTop = "4px solid #EBAEAE";
   document.getElementById("l35").style.borderTop = "4px solid #EBAEAE";
   document.getElementById("l36").style.borderTop = "4px solid #EBAEAE";
+  document.getElementById("l19").style.borderTop = "4px solid #EBAEAE";
+  document.getElementById("l30").style.borderTop = "4px solid #EBAEAE";
+  document.getElementById("l31").style.borderTop = "4px solid #EBAEAE";
+  document.getElementById("l38").style.borderTop = "4px solid #EBAEAE";
+
 }
 
 function islamheaderClicked() {
@@ -40,6 +45,8 @@ function islamheaderClicked() {
   }
   document.getElementById("l8").style.borderTop = "4px solid #DEDE8E";
   document.getElementById("l9").style.borderTop = "4px solid #EBAEAE";
+  document.getElementById("l37").style.borderTop = "4px solid #EBAEAE";
+
 }
 
 function kurdsheaderClicked() {
@@ -51,6 +58,10 @@ function kurdsheaderClicked() {
   }
   document.getElementById("l5").style.borderTop = "4px solid #DEDE8E";
   document.getElementById("l15").style.borderTop = "4px solid #EBAEAE";
+  document.getElementById("l37").style.borderTop = "4px solid #EBAEAE";
+  document.getElementById("l31").style.borderTop = "4px solid #EBAEAE";
+  document.getElementById("l38").style.borderTop = "4px solid #EBAEAE";
+  document.getElementById("l39").style.borderTop = "4px solid #EBAEAE";
 
 }
 
@@ -64,6 +75,10 @@ function isisheaderClicked() {
   document.getElementById("l7").style.borderTop = "4px solid #EBAEAE";
   document.getElementById("l9").style.borderTop = "4px solid #EBAEAE";
   document.getElementById("l15").style.borderTop = "4px solid #EBAEAE";
+  document.getElementById("l19").style.borderTop = "4px solid #EBAEAE";
+  document.getElementById("l30").style.borderTop = "4px solid #EBAEAE";
+  document.getElementById("l39").style.borderTop = "4px solid #EBAEAE";
+
 }
 
 function intheaderClicked() {
@@ -80,13 +95,11 @@ function intheaderClicked() {
   document.getElementById("l3").style.borderTop = "4px solid #EBAEAE";
   document.getElementById("l4").style.borderTop = "4px solid #EBAEAE";
   document.getElementById("l10").style.borderTop = "4px solid #EBAEAE";
-  document.getElementById("l12").style.borderTop = "4px solid #95DB9A";
   document.getElementById("l13").style.borderTop = "4px solid #95DB9A";
   document.getElementById("l14").style.borderTop = "4px solid #95DB9A";
   document.getElementById("l16").style.borderTop = "4px solid #EBAEAE";
   document.getElementById("l17").style.borderTop = "4px solid #EBAEAE";
   document.getElementById("l18").style.borderTop = "4px solid #EBAEAE";
-  document.getElementById("l19").style.borderTop = "4px solid #EBAEAE";
   document.getElementById("l20").style.borderTop = "4px solid #EBAEAE";
   document.getElementById("l21").style.borderTop = "4px solid #EBAEAE";
   document.getElementById("l11").style.borderTop = "4px solid #EBAEAE";
