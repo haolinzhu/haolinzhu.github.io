@@ -46,7 +46,7 @@ function oppoheaderClicked() {
     document.getElementById("opposition-header").style.background = "#5E8C61";
     document.getElementById("opposition-header").style.color = "white";
     document.getElementById("opposition-container").style.borderColor = "#5E8C61";
-    for (let i = 1; i < 9; i ++) {
+    for (let i = 1; i < 10; i ++) {
       document.getElementById("oppo" + i).style.filter = "none";
     }
     document.getElementById("l8").style.borderTop = "4px solid #DEDE8E";
@@ -62,7 +62,7 @@ function oppoheaderClicked() {
     document.getElementById("opposition-header").style.background = "#D6D6D6";
     document.getElementById("opposition-header").style.color = "black";
     document.getElementById("opposition-container").style.borderColor = "#D6D6D6";
-    for (let i = 1; i < 9; i ++) {
+    for (let i = 1; i < 10; i ++) {
       document.getElementById("oppo" + i).style.filter = "grayscale(100%)";
     }
     document.getElementById("l8").style.borderTop = "4px solid #D6D6D6";
@@ -82,7 +82,7 @@ function islamheaderClicked() {
     document.getElementById("islamist-header").style.background = "#848a86";
     document.getElementById("islamist-header").style.color = "white";
     document.getElementById("islamist-container").style.borderColor = "#848a86";
-    for (let i = 1; i < 4; i ++) {
+    for (let i = 1; i < 5; i ++) {
       document.getElementById("i" + i).style.filter = "none";
     }
     document.getElementById("l8").style.borderTop = "4px solid #DEDE8E";
