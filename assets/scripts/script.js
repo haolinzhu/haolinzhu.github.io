@@ -203,7 +203,7 @@ function intheaderClicked() {
   } else {
     intClicked = false;
     document.getElementById("international").style.background = "#D6D6D6";
-    document.getElementById("international").style.color = "white";
+    document.getElementById("international").style.color = "black";
     document.getElementById("foreign-container1").style.borderColor = "#D6D6D6";
     document.getElementById("foreign-container2").style.borderColor = "#D6D6D6";
     document.getElementById("foreign-container3").style.borderColor = "#D6D6D6";
