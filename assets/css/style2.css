@@ -93,7 +93,7 @@ body {
 
 #foreign-container3 {
   position: absolute;
-  width: 230px;
+  width: 250px;
   height: 105px;
   border-radius: 25px;
   border-width: 5px;
@@ -109,6 +109,15 @@ body {
 .foreign {
   margin-top: 12px;
   margin-right: 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.foreign3 {
+  margin-top: 12px;
+  margin-left: 8px;
+  margin-right: 8px;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -136,7 +145,6 @@ body {
 }
 
 .flag {
-  -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
 }
 
@@ -405,7 +413,9 @@ hr.line11{
 }
 
 hr.line12{
-  /*FREE*/
+  width: 70px;
+  margin-top: 430px;
+  margin-left: 1000px;
 }
 
 hr.line13{
@@ -429,24 +439,23 @@ hr.line15{
 }
 
 hr.line16{
-  width: 53px;
-  margin-top: 163px;
-  margin-left: 577px;
+  width: 84px;
+  margin-top: 154px;
+  margin-left: 538px;
   transform: rotate(90deg);
 }
 
 hr.line17{
-  width: 340px;
-  margin-top: 188px;
-  margin-left: 605px;
+  width: 365px;
+  margin-top: 195px;
+  margin-left: 580px;
 }
 
 hr.line18{
-  width: 178px;
-  margin-top: 275px;
-  margin-left: 860px;
+  width: 186px;
+  margin-top: 287px;
+  margin-left: 851px;
   transform: rotate(270deg);
-
 }
 
 hr.line19{
@@ -588,14 +597,27 @@ hr.line39{
 }
 
 hr.line40{
-  /*FREE*/
+  width: 183px;
+  margin-top: 338px;
+  margin-left: 980px;
+  transform: rotate(-90deg);
 }
 
 hr.line41{
-  width: 346px;
+  width: 250px;
   margin-top: 355px;
-  margin-left: 850px;
+  margin-left: 930px;
 }
+
 hr.line42{
-  /*FREE*/
+  width: 501px;
+  margin-top: 210px;
+  margin-left: 430px;
+}
+
+hr.line43{
+  width: 144px;
+  margin-top: 284px;
+  margin-left: 857px;
+  transform: rotate(90deg);
 }
