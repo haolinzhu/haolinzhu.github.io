@@ -3,63 +3,72 @@ body {
 }
 
 #header-container {
-  margin-top: 20px;
+  margin-top: 10px;
+  margin-bottom: 45px;
   display: flex;
   justify-content: center;
 }
 
 .tab {
-  height: 30px;
+  height: 25px;
   width: 190px;
   margin-right: 30px;
   padding-top: 10px;
   background: #D6D6D6;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   text-align: center;
   margin-top: 10px;
 }
 
 #isis-header:hover {
   color: white;
-  background: #000000;
-
+  background: #0B0A07;
+  cursor: pointer;
 }
 
 #governmentheader:hover {
   color: white;
-  background: #EB8A8A;
+  /*background: #EB8A8A;*/
+  background: #A63A50;
+  cursor: pointer;
 }
 
 #opposition-header:hover {
   color: white;
-  background: #74DB7B;
+  /*background: #74DB7B;*/
+  background: #5E8C61;
+  cursor: pointer;
 }
 
 #islamist-header:hover {
   color: white;
   background: #848a86;
+  cursor: pointer;
 }
 
 #kurds-header:hover {
   color: white;
-  background: #E0E069;
+  /*background: #E0E069;*/
+  background: #BDC667;
+  cursor: pointer;
 }
 
 #international:hover {
   color: white;
-  background: #89C9F0;
+  /*background: #89C9F0;*/
+  background: #427AA1;
+  cursor: pointer;
 }
 
 #foreign-container1 {
-  width: 340px;
-  height: 95px;
+  width: 320px;
+  height: 90px;
   border-radius: 25px;
-  border-width: 4px;
+  border-width: 5px;
   border-style: solid;
   border-color: #D6D6D6;
   background: #F6F6F6;
-
   margin-top: 30px;
   margin-left: 110px;
   margin-right: 300px;
@@ -68,43 +77,41 @@ body {
 }
 
 #foreign-container2 {
+  position: absolute;
   width: 110px;
-  height: 95px;
+  height: 90px;
   border-radius: 25px;
-  border-width: 4px;
+  border-width: 5px;
   border-style: solid;
   border-color: #D6D6D6;
   background: #F6F6F6;
-
-  margin-top: 90px;
+  margin-top: 240px;
   margin-left: 920px;
   display: flex;
   justify-content: center;
 }
 
 #foreign-container3 {
+  position: absolute;
   width: 230px;
   height: 105px;
   border-radius: 25px;
-  border-width: 4px;
+  border-width: 5px;
   border-style: solid;
   border-color: #D6D6D6;
   background: #F6F6F6;
-
-  margin-top: -110px;
+  margin-top: 240px;
   margin-left: 1100px;
   display: flex;
   justify-content: center;
 }
 
-
 .foreign {
-  margin-top: 15px;
+  margin-top: 12px;
   margin-right: 0px;
   display: flex;
   align-items: center;
   flex-direction: column;
-
 }
 
 .country {
@@ -113,6 +120,19 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   width: 105px;
+}
+
+.maincountry {
+  margin-top: 5px;
+  text-align: center;
+  font-weight: bold;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  width: 105px;
+}
+
+.country:hover {
+  cursor: pointer;
 }
 
 .flag {
@@ -126,17 +146,15 @@ body {
 }
 
 #government-container {
-  width: 380px;
-  height: 400px;
+  width: 390px;
+  height: 365px;
   border-radius: 25px;
-  border-width: 4px;
+  border-width: 5px;
   border-style: solid;
   border-color: #D6D6D6;
   background: #F6F6F6;
-
-
-  margin-top: 70px;
-  margin-left: 50px;
+  margin-top: 105px;
+  margin-left: 30px;
   margin-right: 100px;
   display: flex;
   flex-direction: row;
@@ -145,23 +163,42 @@ body {
 }
 
 .government {
-  margin-left: 15px;
-  margin-top: 20px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 13px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.government1 {
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.government2 {
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 5px;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
 #kurds-container {
-  width: 290px;
-  height: 270px;
+  position: absolute;
+  width: 270px;
+  height: 250px;
   border-radius: 25px;
-  border-width: 4px;
+  border-width: 5px;
   border-style: solid;
   border-color: #D6D6D6;
   background: #F6F6F6;
-
-  margin-top: 50px;
+  margin-top: 130px;
   margin-left: 550px;
   margin-right: 100px;
   display: flex;
@@ -173,7 +210,16 @@ body {
 
 .kurds {
   margin-left: 10px;
-  margin-top: 20px;
+  margin-top: 13px;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.kurds1 {
+  margin-left: 10px;
+  margin-top: -5px;
   margin-right: 10px;
   display: flex;
   align-items: center;
@@ -181,14 +227,14 @@ body {
 }
 
 #islamist-container {
+  position: absolute;
   width: 250px;
-  height: 270px;
+  height: 240px;
   border-radius: 25px;
-  border-width: 4px;
+  border-width: 5px;
   border-style: solid;
   border-color: #D6D6D6;
   background: #F6F6F6;
-
   margin-top: -260px;
   margin-left: 690px;
   margin-right: 100px;
@@ -196,95 +242,113 @@ body {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
 .islamist {
   margin-top: 10px;
+  margin-bottom: 10px;
   margin-right: 10px;
   display: flex;
   align-items: center;
   flex-direction: column;
   justify-content: center;
+}
 
+.islamist1 {
+  margin-bottom: 10px;
 }
 
 #isis-container {
-  width: 150px;
-  height: 130px;
+  width: 140px;
+  height: 125px;
   border-radius: 25px;
-  border-width: 4px;
+  border-width: 5px;
   border-style: solid;
   border-color: #D6D6D6;
   background: #F6F6F6;
-
-  margin-top: -500px;
+  margin-top: -520px;
   margin-left: 490px;
   margin-right: 100px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
 .isis {
-  margin-left: 10px;
-  margin-top: 20px;
-  margin-right: 10px;
+  /*margin-left: 10px;*/
+  margin-top: 13px;
+  /*margin-right: 10px;*/
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
 #opposition-container {
+  position: absolute;
   width: 380px;
-  height: 330px;
+  height: 325px;
   border-radius: 25px;
-  border-width: 4px;
+  border-width: 5px;
   border-style: solid;
   border-color: #D6D6D6;
   background: #F6F6F6;
-
-  margin-top: -550px;
+  margin-top: -200px;
   margin-left: 1000px;
   margin-right: 100px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-
 }
 
 .opposition {
-  margin-left: 10px;
-  margin-top: 20px;
-  margin-right: 10px;
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 13px;
   display: flex;
   align-items: center;
   flex-direction: column;
 }
 
-hr.line1{
+.opposition1 {
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.opposition2 {
+  margin-left: 8px;
+  margin-right: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+hr{
   position: absolute;
-	border-top: 3px solid #D6D6D6;
-  width: 235px;
+  border-top: 3px solid #D6D6D6;
+}
+
+hr.line1{
+  width: 345px;
   margin-top: -70px;
-  margin-left: 455px;
+  margin-left: 440px;
 }
 
 hr.line2{
-  position: absolute;
-	border-top: 3px solid #D6D6D6;
-  width: 110px;
-  margin-top: 35px;
-  margin-left: 200px;
+  width: 139px;
+  margin-top: 50px;
+  margin-left: 185px;
   transform: rotate(90deg);
 }
 
 hr.line3{
-  position: absolute;
-	border-top: 3px solid #D6D6D6;
   width: 60px;
   margin-top: 10px;
   margin-left: 240px;
@@ -292,180 +356,217 @@ hr.line3{
 }
 
 hr.line4{
-  position: absolute;
-	border-top: 3px solid #D6D6D6;
-  width: 220px;
+  width: 218px;
   margin-top: 40px;
   margin-left: 270px;
 }
 
 hr.line5{
-  position: absolute;
-	border-top: 3px solid #D6D6D6;
-  width: 115px;
+  width: 120px;
   margin-top: 340px;
-  margin-left: 435px;
+  margin-left: 430px;
 }
 
 hr.line7{
-  position: absolute;
-	border-top: 3px solid #D6D6D6;
-  width: 83px;
+  width: 90px;
   margin-top: 325px;
-  margin-left: 435px;
+  margin-left: 430px;
 }
 
 hr.line6{
-  position: absolute;
-	border-top: 3px solid #D6D6D6;
-  width: 193px;
-  margin-top: 230px;
-  margin-left: 420px;
-  transform: rotate(90deg);
+  width: 213px;
+  margin-top: 218px;
+  margin-left: 414px;
+  transform: rotate(-90deg);
 }
 
 hr.line8{
-  position: absolute;
-	border-top: 3px solid #D6D6D6;
   width: 55px;
   margin-top: 70px;
   margin-left: 945px;
 }
 
 hr.line9{
-  position: absolute;
-	border-top: 3px solid #D6D6D6;
-  width: 45px;
+  width: 50px;
   margin-top: 70px;
-  margin-left: 645px;
+  margin-left: 640px;
 }
 
 hr.line10{
-  position: absolute;
-	border-top: 3px solid #D6D6D6;
   width: 75px;
   margin-top: 410px;
   margin-left: 845px;
 }
 
 hr.line11{
-  position: absolute;
-	border-top: 3px solid #D6D6D6;
-  width: 37px;
-  margin-top: 330px;
-  margin-left: 1190px;
-  transform: rotate(90deg);
-}
-
-hr.line12{
-  position: absolute;
-	border-top: 3px solid #D6D6D6;
-  width: 20px;
-  margin-top: 340px;
+  width: 47px;
+  margin-top: 336px;
   margin-left: 1185px;
   transform: rotate(90deg);
 }
 
+hr.line12{
+  width: 33px;
+  margin-top: 343px;
+  margin-left: 1177px;
+  transform: rotate(90deg);
+}
+
 hr.line13{
-  position: absolute;
-	border-top: 3px solid #D6D6D6;
-  width: 350px;
-  margin-top: 330px;
-  margin-left: 845px;
+  width: 346px;
+  margin-top: 328px;
+  margin-left: 850px;
 }
 
 hr.line14{
-  position: absolute;
-	border-top: 3px solid #D6D6D6;
   width: 85px;
-  margin-top: 310px;
-  margin-left: 1190px;
+  margin-top: 314px;
+  margin-left: 1196px;
   transform: rotate(90deg);
 }
 
 hr.line15{
-  position: absolute;
-	border-top: 3px solid #D6D6D6;
-  width: 70px;
-  margin-top: 165px;
+  width: 68px;
+  margin-top: 170px;
   margin-left: 555px;
   transform: rotate(90deg);
 }
 
 hr.line16{
-  position: absolute;
-	border-top: 3px solid #D6D6D6;
   width: 53px;
-  margin-top: 160px;
+  margin-top: 163px;
   margin-left: 577px;
   transform: rotate(90deg);
 }
 
 hr.line17{
-  position: absolute;
-	border-top: 3px solid #D6D6D6;
   width: 340px;
-  margin-top: 185px;
+  margin-top: 188px;
   margin-left: 605px;
 }
 
 hr.line18{
-  position: absolute;
-	border-top: 3px solid #D6D6D6;
-  width: 170px;
-  margin-top: 270px;
+  width: 178px;
+  margin-top: 275px;
   margin-left: 860px;
-  transform: rotate(90deg);
+  transform: rotate(270deg);
 
 }
 
 hr.line19{
-  position: absolute;
-	border-top: 3px solid #D6D6D6;
   width: 38px;
-  margin-top: 150px;
+  margin-top: 155px;
   margin-left: 600px;
   transform: rotate(90deg);
 }
 
 hr.line20{
-  position: absolute;
-	border-top: 3px solid #D6D6D6;
   width: 340px;
-  margin-top: 170px;
+  margin-top: 173px;
   margin-left: 620px;
 }
 
 hr.line21{
-  position: absolute;
-	border-top: 3px solid #D6D6D6;
-  width: 123px;
-  margin-top: 230px;
+  width: 126px;
+  margin-top: 235px;
   margin-left: 900px;
   transform: rotate(90deg);
 }
 
 hr.line22{
-  position: absolute;
-	border-top: 3px solid #D6D6D6;
   width: 315px;
   margin-top: 313px;
   margin-left: 895px;
 }
 
 hr.line23{
-  position: absolute;
-	border-top: 3px solid #D6D6D6;
-  width: 160px;
-  margin-top: 230px;
+  width: 158px;
+  margin-top: 235px;
   margin-left: 815px;
   transform: rotate(90deg);
 }
 
 hr.line24{
-  position: absolute;
-	border-top: 3px solid #D6D6D6;
-  width: 250px;
+  width: 260px;
+  margin-top: 298px;
+  margin-left: 963px;
+}
+
+hr.line25{
+  width: 63px;
+  margin-top: 328px;
+  margin-left: 1192px;
+  transform: rotate(90deg);
+}
+
+hr.line26{
+  width: 220px;
+  margin-top: -55px;
+  margin-left: 440px;
+}
+
+hr.line27{
+  width: 176px;
+  margin-top: 32px;
+  margin-left: 574px;
+  transform: rotate(-90deg);
+}
+
+hr.line28{
+  width: 350px;
+  margin-top: 120px;
+  margin-left: 662px;
+}
+
+hr.line35{
+  width: 550px;
+  margin-top: 135px;
+  margin-left: 449px;
+  transform: rotate(-180deg);
+}
+
+hr.line30{
+  width: 270px;
+  margin-top: 150px;
+  margin-left: 650px;
+}
+
+hr.line31{
+  width: 270px;
+  margin-top: 165px;
+  margin-left: 650px;
+}
+
+hr.line32{
+  width: 350px;
+  margin-top: 135px;
+  margin-left: 290px;
+  transform: rotate(-90deg);
+}
+
+hr.line33{
+  width: 35px;
+  margin-top: 310px;
+  margin-left: 430px;
+}
+
+hr.line34{
+  width: 225px;
+  margin-top: -40px;
+  margin-left: 464px;
+  transform: rotate(-180deg);
+
+}
+
+hr.line29{
+  width: 160px;
+  margin-top: 215px;
+  margin-left: 370px;
+  transform: rotate(-90deg);
+}
+
+hr.line36{
+  width: 20px;
   margin-top: 295px;
-  margin-left: 960px;
+  margin-left: 430px;
 }
