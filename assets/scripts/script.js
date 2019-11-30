@@ -28,15 +28,15 @@ function govtheaderClicked() {
       document.getElementById("gov" + i).style.filter = "grayscale(100%)";
     }
 
-    document.getElementById("l5").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l6").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l7").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l32").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l33").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l34").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l29").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l35").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l36").style.borderTop = "4px solid #D6D6D6";
+    document.getElementById("l5").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l6").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l7").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l32").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l33").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l34").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l29").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l35").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l36").style.borderTop = "3px solid #D6D6D6";
   }
 }
 
@@ -65,14 +65,14 @@ function oppoheaderClicked() {
     for (let i = 1; i < 10; i ++) {
       document.getElementById("oppo" + i).style.filter = "grayscale(100%)";
     }
-    document.getElementById("l8").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l29").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l35").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l36").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l19").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l30").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l31").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l38").style.borderTop = "4px solid #D6D6D6";
+    document.getElementById("l8").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l29").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l35").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l36").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l19").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l30").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l31").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l38").style.borderTop = "3px solid #D6D6D6";
   }
 }
 
@@ -96,9 +96,9 @@ function islamheaderClicked() {
     for (let i = 1; i < 4; i ++) {
       document.getElementById("i" + i).style.filter = "grayscale(100%)";
     }
-    document.getElementById("l8").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l9").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l37").style.borderTop = "4px solid #D6D6D6";
+    document.getElementById("l8").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l9").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l37").style.borderTop = "3px solid #D6D6D6";
   }
 }
 
@@ -125,12 +125,12 @@ function kurdsheaderClicked() {
     for (let i = 1; i < 5; i ++) {
       document.getElementById("k" + i).style.filter = "grayscale(100%)";
     }
-    document.getElementById("l5").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l15").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l37").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l31").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l38").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l39").style.borderTop = "4px solid #D6D6D6";
+    document.getElementById("l5").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l15").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l37").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l31").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l38").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l39").style.borderTop = "3px solid #D6D6D6";
   }
 }
 
@@ -154,13 +154,13 @@ function isisheaderClicked() {
     document.getElementById("isis-container").style.borderColor = "#D6D6D6";
     document.getElementById("isis-header").style.color = "black";
     document.getElementById("is").style.filter = "grayscale(100%)";
-    document.getElementById("l6").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l7").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l9").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l15").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l19").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l30").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l39").style.borderTop = "4px solid #D6D6D6";
+    document.getElementById("l6").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l7").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l9").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l15").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l19").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l30").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l39").style.borderTop = "3px solid #D6D6D6";
   }
 }
 
@@ -200,6 +200,8 @@ function intheaderClicked() {
     document.getElementById("l41").style.borderTop = "4px solid #EBAEAE";
     document.getElementById("l42").style.borderTop = "4px solid #EBAEAE";
     document.getElementById("l43").style.borderTop = "4px solid #EBAEAE";
+    document.getElementById("l44").style.borderTop = "4px solid #DEDE8E";
+    document.getElementById("l45").style.borderTop = "4px solid #DEDE8E";
   } else {
     intClicked = false;
     document.getElementById("international").style.background = "#D6D6D6";
@@ -210,31 +212,33 @@ function intheaderClicked() {
     for (let i = 1; i < 7; i ++) {
       document.getElementById("int" + i).style.filter = "grayscale(100%)";
     }
-    document.getElementById("l1").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l2").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l3").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l4").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l10").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l13").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l14").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l16").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l17").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l18").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l20").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l21").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l11").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l22").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l23").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l24").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l25").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l26").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l27").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l28").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l12").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l40").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l41").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l42").style.borderTop = "4px solid #D6D6D6";
-    document.getElementById("l43").style.borderTop = "4px solid #D6D6D6";
+    document.getElementById("l1").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l2").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l3").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l4").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l10").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l13").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l14").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l16").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l17").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l18").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l20").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l21").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l11").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l22").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l23").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l24").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l25").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l26").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l27").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l28").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l12").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l40").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l41").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l42").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l43").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l44").style.borderTop = "3px solid #D6D6D6";
+    document.getElementById("l45").style.borderTop = "3px solid #D6D6D6";
   }
 }
 
@@ -261,3 +265,58 @@ isisheader.onclick = isisheaderClicked;
 let intClicked = false;
 let intheader = document.getElementById("international");
 intheader.onclick = intheaderClicked;
+
+let gov = document.getElementById("gov");
+let govbox = document.getElementById("govbox");
+gov.onclick = function() {
+  govbox.style.display = "block";
+}
+
+let isis = document.getElementById("isis");
+let isisbox = document.getElementById("isisbox");
+isis.onclick = function() {
+  isisbox.style.display = "block";
+}
+
+let sdf = document.getElementById("sdf");
+let sdfbox = document.getElementById("sdfbox");
+sdf.onclick = function() {
+  sdfbox.style.display = "block";
+}
+
+let hts = document.getElementById("hts");
+let htsbox = document.getElementById("htsbox");
+hts.onclick = function() {
+  htsbox.style.display = "block";
+}
+
+let rebels = document.getElementById("rebels");
+let rebelsbox = document.getElementById("rebelsbox");
+rebels.onclick = function() {
+  rebelsbox.style.display = "block";
+}
+
+let span = document.getElementsByClassName("close")[0];
+span.onclick = function() {
+  govbox.style.display = "none";
+}
+
+let span1 = document.getElementsByClassName("close1")[0];
+span1.onclick = function() {
+  isisbox.style.display = "none";
+}
+
+let span2 = document.getElementsByClassName("close2")[0];
+span2.onclick = function() {
+  sdfbox.style.display = "none";
+}
+
+let span3 = document.getElementsByClassName("close3")[0];
+span3.onclick = function() {
+  htsbox.style.display = "none";
+}
+
+let span4 = document.getElementsByClassName("close4")[0];
+span4.onclick = function() {
+  rebelsbox.style.display = "none";
+}

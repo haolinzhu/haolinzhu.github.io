@@ -20,15 +20,15 @@
 
     <div id="foreign-container1">
       <div class="foreign">
-        <img src="assets/img/Russia.svg" class="flag" id="int1" style="width:75px;height:50px;">
+        <img src="assets/img/Russia.svg" class="flag maincountry" id="int1" style="width:75px;height:50px;">
         <div class="maincountry">Russia</div>
       </div>
       <div class="foreign">
-        <img src="assets/img/Iran.svg" class="flag" id="int2" style="width:75px;height:50px;">
+        <img src="assets/img/Iran.svg" class="flag maincountry" id="int2" style="width:75px;height:50px;">
         <div class="maincountry">Iran</div>
       </div>
       <div class="foreign">
-        <img src="assets/img/Hezbollah.svg" class="flag" id="int3" style="width:75px;height:50px;">
+        <img src="assets/img/Hezbollah.svg" class="flag maincountry" id="int3" style="width:75px;height:50px;">
         <div class="maincountry">Hezbollah</div>
       </div>
     </div>
@@ -77,11 +77,13 @@
     <hr class="line41" id="l41"> <!-- US - gov -->
     <hr class="line42" id="l42">
     <hr class="line43" id="l43"> <!-- end -->
+    <hr class="line44" id="l44"> <!-- turkey - al-Nusra -->
+    <hr class="line45" id="l45"> <!-- end -->
     <br>
 
     <div id="government-container">
-      <div class="government">
-        <img src="assets/img/Syria.png" class="flag" id="gov9" style="width:105px;height:70px;">
+      <div class="government" id="gov">
+        <img src="assets/img/Syria.png" class="flag maincountry" id="gov9" style="width:105px;height:70px;">
         <div class="maincountry">Syrian Government</div>
       </div>
       <div class="government">
@@ -119,16 +121,16 @@
     </div>
 
     <div id="isis-container">
-      <div class="isis">
-        <img src="assets/img/ISIS.svg" class="flag" id="is" style="width:105px;height:70px;">
+      <div class="isis" id="isis">
+        <img src="assets/img/ISIS.svg" class="flag maincountry" id="is" style="width:105px;height:70px;">
         <div class="maincountry">Islamic State of Iraq and Syria</div>
       </div>
     </div>
 
     <div id="islamist-container">
-      <div class="islamist">
-        <img src="assets/img/Hayyat_Tahrir_al-Sham_logo.jpg" class="flag" id="i1" style="width:70px;height:70px;">
-        <div class="maincountry">Hayat Tahrir al-Sham</div>
+      <div class="islamist" id="hts">
+        <img src="assets/img/Hayyat_Tahrir_al-Sham_logo.jpg" class="flag maincountry" id="i1" style="width:70px;height:70px;">
+        <div class="maincountry">Hay'at Tahrir al-Sham</div>
       </div>
       <div class="islamist">
         <img src="assets/img/Jabhat_Fatah_al-Sham.svg" class="flag" id="i2" style="width:105px;height:70px;">
@@ -145,8 +147,8 @@
     </div>
 
     <div id="kurds-container">
-      <div class="kurds">
-        <img src="assets/img/Syrian_Democratic_Forces.svg" class="flag" id="k1" style="width:105px;height:70px;">
+      <div class="kurds" id="sdf">
+        <img src="assets/img/Syrian_Democratic_Forces.svg" class="flag maincountry" id="k1" style="width:105px;height:70px;">
         <div class="maincountry">Syrian Democratic Forces</div>
       </div>
       <div class="kurds">
@@ -164,8 +166,8 @@
     </div>
 
     <div id="opposition-container">
-      <div class="opposition">
-        <img src="assets/img/Oppo.svg" class="flag" id="oppo8" style="width:105px;height:70px;">
+      <div class="opposition" id="rebels">
+        <img src="assets/img/Oppo.svg" class="flag maincountry" id="oppo8" style="width:105px;height:70px;">
         <div class="maincountry">Syrian Opposition</div>
       </div>
       <div class="opposition">
@@ -204,18 +206,68 @@
 
     <div id="foreign-container2">
       <div class="foreign">
-        <img src="assets/img/Turkey.svg" class="flag" id="int5" style="width:75px;height:50px;">
+        <img src="assets/img/Turkey.svg" class="flag maincountry" id="int5" style="width:75px;height:50px;">
         <div class="maincountry">Turkey</div>
       </div>
     </div>
+
     <div id="foreign-container3">
       <div class="foreign3">
-        <img src="assets/img/United_States.svg" class="flag" id="int4" style="width:75px;height:50px;">
+        <img src="assets/img/United_States.svg" class="flag maincountry" id="int4" style="width:75px;height:50px;">
         <div class="maincountry">United States and allies</div>
       </div>
       <div class="foreign3">
-        <img src="assets/img/Saudi_Arabia.svg" class="flag" id="int6" style="width:75px;height:50px;">
+        <img src="assets/img/Saudi_Arabia.svg" class="flag maincountry" id="int6" style="width:75px;height:50px;">
         <div class="maincountry">Saudi Arabia and Gulf States</div>
+      </div>
+    </div>
+
+    <div id="govbox" class="box">
+      <div id="gov-content" class="box-content">
+        <span class="close">&times;</span>
+        <p>Syrian Government</p>
+        <p>The Syrian government is led by President Assad, backed by Russia, Iran and the Lebanese militia Hezbollah.</p>
+        <p>In 2019, forces loyal to Assad have managed to reclaim most of the country once held by Syrian rebels. Assad has defied international pressure and made no concessions to the rebels, insisting they are all “terrorists.” A decisive victory in the war would put him in a favorable position for a redrafting of the Syrian constitution, which the United Nations is pushing for as part of a political process to end fighting.</p>
+      </div>
+    </div>
+
+    <div id="isisbox" class="box">
+      <div id="isis-content" class="box-content">
+        <span class="close1">&times;</span>
+        <p>Islamic State of Iraq and Syria (ISIS)</p>
+        <p>ISIS is a jihadist militant group that attracted global attention in early 2014 when it released videos of executions of soldiers and civilians, including journalists and humanitarian workers. It has been designated as a terrorist organisation by the United Nations as well as by many countries, including the United States.</p>
+        <p>In 2014, the United States led an international coalition intervened against ISIS in Syria and Iraq by conducting an airstrike campaign, as well as supplying advisors, weapons, training, and supplies to its enemies, such as Iraqi troops and the Syrian Democratic Forces.</p>
+        <p>In 2019, the group has virtually lost all of its territory in Syria and Iraq. Its leader, Abu Bakr al-Baghdadi, was killed during a raid in Syria's Idlib province conducted by U.S. special forces in October.</p>
+      </div>
+    </div>
+
+    <div id="sdfbox" class="box">
+      <div id="sdf-content" class="box-content">
+        <span class="close2">&times;</span>
+        <p>Syrian Democratic Forces (SDF)</p>
+        <p>The Syrian Democratic Forces is a coalition of multi-ethnic fighters in northeastern Syria led by the Kurdish-militia People's Protection Units.</p>
+        <p>The SDF is supported by United States, and it is one of the most effective fighting forces against ISIS. Backed by U.S. air support, the SDF took control of Raqqa, the capital of ISIS, in October 2017.</p>
+        <p>However, the SDF is seen by Turkey as an extension of the Kurdistan Workers' Party, a militant insurgent group fighting the Turkish government since the 1980s.</p>
+        <p>In October 2019, the Turkish Armed Forces along with the Turkish-backed Free Syrian Army launched a military offensive against the SDF, following an announcement by President Trump to withdraw U.S. troops from northern Syria.</p>
+      </div>
+    </div>
+
+    <div id="htsbox" class="box">
+      <div id="hts-content" class="box-content">
+        <span class="close3">&times;</span>
+        <p>Hay'at Tahrir al-Sham</p>
+        <p>Hay'at Tahrir al-Sham is a jihadist group formed in 2017 by the merger several Islamist groups. Al-Qaeda's branch in Syria, Al-Nusra Front (aka Jabhat al-Nusra), is one of the prominent groups that merged into Hay'at Tahrir al-Sham.</p>
+        <p>Hay'at Tahrir al-Sham is the dominant group in rebel-held Idlib province, prompting smaller and moderate rebel groups to coorperate with it in the fight against the Syrian government.</p>
+        <p>It has been designated as a terrorist organization by the United States, Canada, and Turkey.</p>
+      </div>
+    </div>
+
+    <div id="rebelsbox" class="box">
+      <div id="rebels-content" class="box-content">
+        <span class="close4">&times;</span>
+        <p>Syrian Opposition</p>
+        <p>The Syrian opposition, sometimes referred to as Syrian rebels, is a collection of anti-government groups seeking to overthrow the government of President Bashar al-Assad.</p>
+        <p>It is supported by the United States and its allies, Saudi Arabia and Gulf countries, and Turkey.</p>
       </div>
     </div>
 
