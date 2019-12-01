@@ -1,12 +1,22 @@
 body {
+  background: #FFFFFF;
+}
+
+#main {
+  height: 830px;
   background: #F6F6F6;
 }
 
 #header-container {
-  margin-top: 10px;
-  margin-bottom: 75px;
+  margin-top: -10px;
+  margin-left: -10px;
+  margin-right: -10px;
+  margin-bottom: 85px;
+  padding-top: 10px;
+  padding-bottom: 15px;
   display: flex;
   justify-content: center;
+  background: #FFFFFF;
 }
 
 .tab {
@@ -14,11 +24,13 @@ body {
   width: 190px;
   margin-right: 30px;
   padding-top: 10px;
-  background: #D6D6D6;
+  padding-bottom: 5px;
+  /*background: #D6D6D6;*/
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
+  color: #1F1E38;
   text-align: center;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 
 #isis-header:hover {
@@ -134,7 +146,7 @@ body {
 .maincountry {
   margin-top: 5px;
   text-align: center;
-  font-weight: bold;
+  font-style: italic;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 12px;
   width: 105px;
@@ -149,7 +161,6 @@ body {
 }
 
 .flag:hover {
-  -webkit-filter: none;
   filter: none;
 }
 
@@ -173,10 +184,13 @@ body {
 .government {
   margin-left: 8px;
   margin-right: 8px;
-  margin-top: 13px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: flex-end;
 }
 
 .government1 {
@@ -186,6 +200,8 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: flex-start;
+
 }
 
 .government2 {
@@ -195,6 +211,8 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: flex-start;
+
 }
 
 #kurds-container {
@@ -237,13 +255,13 @@ body {
 #islamist-container {
   position: absolute;
   width: 250px;
-  height: 250px;
+  height: 255px;
   border-radius: 25px;
   border-width: 5px;
   border-style: solid;
   border-color: #D6D6D6;
   background: #F6F6F6;
-  margin-top: -270px;
+  margin-top: -275px;
   margin-left: 690px;
   margin-right: 100px;
   display: flex;
@@ -300,7 +318,7 @@ body {
 #opposition-container {
   position: absolute;
   width: 380px;
-  height: 335px;
+  height: 340px;
   border-radius: 25px;
   border-width: 5px;
   border-style: solid;
@@ -341,6 +359,7 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: flex-end;
 }
 
 hr{
@@ -699,4 +718,24 @@ hr.line45{
   color: #000;
   text-decoration: none;
   cursor: pointer;
+}
+
+#footer-container {
+  /*margin-top: 420px;
+  margin-left: -10px;
+  margin-right: -10px;*/
+  margin-left: -10px;
+  margin-right: -10px;
+  padding-top: 15px;
+
+  padding-right: 10px;
+  padding-bottom: 15px;
+  background: #FFFFFF;
+}
+
+.footer {
+  margin-top: 10px;
+  margin-left: 30px;
+  font-size: 12px;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }

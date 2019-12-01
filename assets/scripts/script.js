@@ -20,7 +20,7 @@ function govtheaderClicked() {
     document.getElementById("l36").style.borderTop = "4px solid #EBAEAE";
   } else {
     govClicked = false;
-    document.getElementById("governmentheader").style.background = "#D6D6D6";
+    document.getElementById("governmentheader").style.background = "#FFFFFF";
     document.getElementById("governmentheader").style.color = "black";
     document.getElementById("government-container").style.borderColor = "#D6D6D6";
 
@@ -59,7 +59,7 @@ function oppoheaderClicked() {
     document.getElementById("l38").style.borderTop = "4px solid #EBAEAE";
   } else {
     oppoClicked = false;
-    document.getElementById("opposition-header").style.background = "#D6D6D6";
+    document.getElementById("opposition-header").style.background = "#FFFFFF";
     document.getElementById("opposition-header").style.color = "black";
     document.getElementById("opposition-container").style.borderColor = "#D6D6D6";
     for (let i = 1; i < 10; i ++) {
@@ -119,7 +119,7 @@ function kurdsheaderClicked() {
     document.getElementById("l39").style.borderTop = "4px solid #EBAEAE";
   } else {
     kurdsClicked = false;
-    document.getElementById("kurds-header").style.background = "#D6D6D6";
+    document.getElementById("kurds-header").style.background = "#FFFFFF";
     document.getElementById("kurds-header").style.color = "black";
     document.getElementById("kurds-container").style.borderColor = "#D6D6D6";
     for (let i = 1; i < 5; i ++) {
@@ -150,7 +150,7 @@ function isisheaderClicked() {
     document.getElementById("l39").style.borderTop = "4px solid #EBAEAE";
   } else {
     isisClicked = false;
-    document.getElementById("isis-header").style.background = "#D6D6D6";
+    document.getElementById("isis-header").style.background = "#FFFFFF";
     document.getElementById("isis-container").style.borderColor = "#D6D6D6";
     document.getElementById("isis-header").style.color = "black";
     document.getElementById("is").style.filter = "grayscale(100%)";
@@ -204,7 +204,7 @@ function intheaderClicked() {
     document.getElementById("l45").style.borderTop = "4px solid #DEDE8E";
   } else {
     intClicked = false;
-    document.getElementById("international").style.background = "#D6D6D6";
+    document.getElementById("international").style.background = "#FFFFFF";
     document.getElementById("international").style.color = "black";
     document.getElementById("foreign-container1").style.borderColor = "#D6D6D6";
     document.getElementById("foreign-container2").style.borderColor = "#D6D6D6";
