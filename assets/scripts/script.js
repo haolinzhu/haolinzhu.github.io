@@ -296,6 +296,12 @@ rebels.onclick = function() {
   rebelsbox.style.display = "block";
 }
 
+let us = document.getElementById("us");
+let usbox = document.getElementById("usbox");
+us.onclick = function() {
+  usbox.style.display = "block";
+}
+
 let span = document.getElementsByClassName("close")[0];
 span.onclick = function() {
   govbox.style.display = "none";
@@ -319,4 +325,9 @@ span3.onclick = function() {
 let span4 = document.getElementsByClassName("close4")[0];
 span4.onclick = function() {
   rebelsbox.style.display = "none";
+}
+
+let span5 = document.getElementsByClassName("close5")[0];
+span5.onclick = function() {
+  usbox.style.display = "none";
 }

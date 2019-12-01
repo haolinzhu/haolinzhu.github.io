@@ -1,5 +1,6 @@
 body {
   background: #FFFFFF;
+
 }
 
 #main {
@@ -663,7 +664,7 @@ hr.line45{
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
-  padding-top: 100px; /* Location of the box */
+  padding-top: 150px; /* Location of the box */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
@@ -671,20 +672,27 @@ hr.line45{
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-
 }
 
 .box-content {
   background-color: #fefefe;
   margin: auto;
-  padding: 20px;
+  padding: 40px;
   border-radius: 25px;
   border-width: 5px;
   border-style: solid;
   border-color: #000000;
-  width: 80%;
+  width: 50%;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
+  line-height: 30px;
+}
+
+.popdes {
+  font-size: 24px;
+  letter-spacing: 2px;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 #gov-content {
@@ -707,14 +715,14 @@ hr.line45{
   border-color: #5E8C61;
 }
 
-.close, .close1, .close2, .close3, .close4 {
+.close, .close1, .close2, .close3, .close4, .close5 {
   color: #aaaaaa;
   float: right;
   font-size: 28px;
   font-weight: bold;
 }
 
-.close:hover, .close1:hover, .close2:hover, .close3:hover, .close4 {
+.close:hover, .close1:hover, .close2:hover, .close3:hover, .close4:hover, .close5:hover {
   color: #000;
   text-decoration: none;
   cursor: pointer;
