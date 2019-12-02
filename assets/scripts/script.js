@@ -615,3 +615,67 @@ kurds_isis1.onmousemove = kurds_isis_on;
 kurds_isis2.onmousemove = kurds_isis_on;
 kurds_isis1.onmouseout = kurds_isis_off;
 kurds_isis2.onmouseout = kurds_isis_off;
+
+let turkey_isis1 = document.getElementById("l16");
+let turkey_isis2 = document.getElementById("l17");
+let turkey_isis3 = document.getElementById("l18");
+
+
+function turkey_isis_on() {
+  if (intClicked == false) {
+    turkey_isis1.style.borderTop = "4px solid #D6D6D6";
+    turkey_isis2.style.borderTop = "4px solid #D6D6D6";
+    turkey_isis3.style.borderTop = "4px solid #D6D6D6";
+  } else {
+    turkey_isis1.style.borderTop = "4px solid #eb6e6e"; //red
+    turkey_isis2.style.borderTop = "4px solid #eb6e6e";
+    turkey_isis3.style.borderTop = "4px solid #eb6e6e";
+  }
+};
+
+function turkey_isis_off() {
+  if (intClicked == false) {
+    turkey_isis1.style.borderTop = "3px solid #D6D6D6";
+    turkey_isis2.style.borderTop = "3px solid #D6D6D6";
+    turkey_isis3.style.borderTop = "3px solid #D6D6D6";
+  } else {
+    turkey_isis1.style.borderTop = "3px solid #EBAEAE"; //red
+    turkey_isis2.style.borderTop = "3px solid #EBAEAE";
+    turkey_isis3.style.borderTop = "3px solid #EBAEAE";
+  }
+};
+
+turkey_isis1.onmousemove = turkey_isis_on;
+turkey_isis2.onmousemove = turkey_isis_on;
+turkey_isis3.onmousemove = turkey_isis_on;
+turkey_isis1.onmouseout = turkey_isis_off;
+turkey_isis2.onmouseout = turkey_isis_off;
+turkey_isis3.onmouseout = turkey_isis_off;
+
+let oppo_isis1 = document.getElementById("l19");
+let oppo_isis2 = document.getElementById("l30");
+
+function oppo_isis_on() {
+  if (oppoClicked == false && isisClicked == false) {
+    oppo_isis1.style.borderTop = "4px solid #D6D6D6";
+    oppo_isis2.style.borderTop = "4px solid #D6D6D6";
+  } else {
+    oppo_isis1.style.borderTop = "4px solid #eb6e6e"; //red
+    oppo_isis2.style.borderTop = "4px solid #eb6e6e";
+  }
+};
+
+function oppo_isis_off() {
+  if (oppoClicked == false && isisClicked == false) {
+    oppo_isis1.style.borderTop = "3px solid #D6D6D6";
+    oppo_isis2.style.borderTop = "3px solid #D6D6D6";
+  } else {
+    oppo_isis1.style.borderTop = "3px solid #EBAEAE"; //red
+    oppo_isis2.style.borderTop = "3px solid #EBAEAE";
+  }
+};
+
+oppo_isis1.onmousemove = oppo_isis_on;
+oppo_isis2.onmousemove = oppo_isis_on;
+oppo_isis1.onmouseout = oppo_isis_off;
+oppo_isis2.onmouseout = oppo_isis_off;
