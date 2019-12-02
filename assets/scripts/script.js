@@ -396,7 +396,7 @@ rus_isis2.onmouseout = rus_isis_off;
 
 let gov_kurds = document.getElementById("l5");
 gov_kurds.onmousemove = function() {
-  if (intClicked == false && kurdsClicked == false) {
+  if (govClicked == false && kurdsClicked == false) {
     gov_kurds.style.borderTop = "4px solid #D6D6D6";
   } else {
     gov_kurds.style.borderTop = "4px solid #e3e354"; //yellow
@@ -404,7 +404,7 @@ gov_kurds.onmousemove = function() {
 };
 
 gov_kurds.onmouseout = function() {
-  if (intClicked == false && kurdsClicked == false) {
+  if (govClicked == false && kurdsClicked == false) {
     gov_kurds.style.borderTop = "3px solid #D6D6D6";
   } else {
     gov_kurds.style.borderTop = "3px solid #DEDE8E"; //yellow
@@ -679,3 +679,261 @@ oppo_isis1.onmousemove = oppo_isis_on;
 oppo_isis2.onmousemove = oppo_isis_on;
 oppo_isis1.onmouseout = oppo_isis_off;
 oppo_isis2.onmouseout = oppo_isis_off;
+
+let us_isis1 = document.getElementById("l20");
+let us_isis2 = document.getElementById("l21");
+let us_isis3 = document.getElementById("l24");
+let us_isis4 = document.getElementById("l25");
+
+function us_isis_on() {
+  if (intClicked == false) {
+    us_isis1.style.borderTop = "4px solid #D6D6D6";
+    us_isis2.style.borderTop = "4px solid #D6D6D6";
+    us_isis3.style.borderTop = "4px solid #D6D6D6";
+    us_isis4.style.borderTop = "4px solid #D6D6D6";
+  } else {
+    us_isis1.style.borderTop = "4px solid #eb6e6e"; //red
+    us_isis2.style.borderTop = "4px solid #eb6e6e";
+    us_isis3.style.borderTop = "4px solid #eb6e6e";
+    us_isis4.style.borderTop = "4px solid #eb6e6e";
+  }
+};
+
+function us_isis_off() {
+  if (intClicked == false) {
+    us_isis1.style.borderTop = "3px solid #D6D6D6";
+    us_isis2.style.borderTop = "3px solid #D6D6D6";
+    us_isis3.style.borderTop = "3px solid #D6D6D6";
+    us_isis4.style.borderTop = "3px solid #D6D6D6";
+  } else {
+    us_isis1.style.borderTop = "3px solid #EBAEAE"; //red
+    us_isis2.style.borderTop = "3px solid #EBAEAE";
+    us_isis3.style.borderTop = "3px solid #EBAEAE";
+    us_isis4.style.borderTop = "3px solid #EBAEAE";
+  }
+};
+
+us_isis1.onmousemove = us_isis_on;
+us_isis2.onmousemove = us_isis_on;
+us_isis3.onmousemove = us_isis_on;
+us_isis4.onmousemove = us_isis_on;
+us_isis1.onmouseout = us_isis_off;
+us_isis2.onmouseout = us_isis_off;
+us_isis3.onmouseout = us_isis_off;
+us_isis4.onmouseout = us_isis_off;
+
+let rus_oppo1 = document.getElementById("l26");
+let rus_oppo2 = document.getElementById("l27");
+let rus_oppo3 = document.getElementById("l28");
+
+
+function rus_oppo_on() {
+  if (intClicked == false) {
+    rus_oppo1.style.borderTop = "4px solid #D6D6D6";
+    rus_oppo2.style.borderTop = "4px solid #D6D6D6";
+    rus_oppo3.style.borderTop = "4px solid #D6D6D6";
+  } else {
+    rus_oppo1.style.borderTop = "4px solid #eb6e6e"; //red
+    rus_oppo2.style.borderTop = "4px solid #eb6e6e";
+    rus_oppo3.style.borderTop = "4px solid #eb6e6e";
+  }
+};
+
+function rus_oppo_off() {
+  if (intClicked == false) {
+    rus_oppo1.style.borderTop = "3px solid #D6D6D6";
+    rus_oppo2.style.borderTop = "3px solid #D6D6D6";
+    rus_oppo3.style.borderTop = "3px solid #D6D6D6";
+  } else {
+    rus_oppo1.style.borderTop = "3px solid #EBAEAE"; //red
+    rus_oppo2.style.borderTop = "3px solid #EBAEAE";
+    rus_oppo3.style.borderTop = "3px solid #EBAEAE";
+  }
+};
+
+rus_oppo1.onmousemove = rus_oppo_on;
+rus_oppo2.onmousemove = rus_oppo_on;
+rus_oppo3.onmousemove = rus_oppo_on;
+rus_oppo1.onmouseout = rus_oppo_off;
+rus_oppo2.onmouseout = rus_oppo_off;
+rus_oppo3.onmouseout = rus_oppo_off;
+
+let gov_oppo1 = document.getElementById("l29");
+let gov_oppo2 = document.getElementById("l35");
+let gov_oppo3 = document.getElementById("l36");
+
+
+function gov_oppo_on() {
+  if (govClicked == false && oppoClicked == false) {
+    gov_oppo1.style.borderTop = "4px solid #D6D6D6";
+    gov_oppo2.style.borderTop = "4px solid #D6D6D6";
+    gov_oppo3.style.borderTop = "4px solid #D6D6D6";
+  } else {
+    gov_oppo1.style.borderTop = "4px solid #eb6e6e"; //red
+    gov_oppo2.style.borderTop = "4px solid #eb6e6e";
+    gov_oppo3.style.borderTop = "4px solid #eb6e6e";
+  }
+};
+
+function gov_oppo_off() {
+  if (govClicked == false && oppoClicked == false) {
+    gov_oppo1.style.borderTop = "3px solid #D6D6D6";
+    gov_oppo2.style.borderTop = "3px solid #D6D6D6";
+    gov_oppo3.style.borderTop = "3px solid #D6D6D6";
+  } else {
+    gov_oppo1.style.borderTop = "3px solid #EBAEAE"; //red
+    gov_oppo2.style.borderTop = "3px solid #EBAEAE";
+    gov_oppo3.style.borderTop = "3px solid #EBAEAE";
+  }
+};
+
+gov_oppo1.onmousemove = gov_oppo_on;
+gov_oppo2.onmousemove = gov_oppo_on;
+gov_oppo3.onmousemove = gov_oppo_on;
+gov_oppo1.onmouseout = gov_oppo_off;
+gov_oppo2.onmouseout = gov_oppo_off;
+gov_oppo3.onmouseout = gov_oppo_off;
+
+let kurds_oppo1 = document.getElementById("l31");
+let kurds_oppo2 = document.getElementById("l38");
+
+function kurds_oppo_on() {
+  if (oppoClicked == false && kurdsClicked == false) {
+    kurds_oppo1.style.borderTop = "4px solid #D6D6D6";
+    kurds_oppo2.style.borderTop = "4px solid #D6D6D6";
+  } else {
+    kurds_oppo1.style.borderTop = "4px solid #eb6e6e"; //red
+    kurds_oppo2.style.borderTop = "4px solid #eb6e6e";
+  }
+};
+
+function kurds_oppo_off() {
+  if (oppoClicked == false && kurdsClicked == false) {
+    kurds_oppo1.style.borderTop = "3px solid #D6D6D6";
+    kurds_oppo2.style.borderTop = "3px solid #D6D6D6";
+  } else {
+    kurds_oppo1.style.borderTop = "3px solid #EBAEAE"; //red
+    kurds_oppo2.style.borderTop = "3px solid #EBAEAE";
+  }
+};
+
+kurds_oppo1.onmousemove = kurds_oppo_on;
+kurds_oppo2.onmousemove = kurds_oppo_on;
+kurds_oppo1.onmouseout = kurds_oppo_off;
+kurds_oppo2.onmouseout = kurds_oppo_off;
+
+let gov_islam1 = document.getElementById("l32");
+let gov_islam2 = document.getElementById("l33");
+let gov_islam3 = document.getElementById("l34");
+
+
+function gov_islam_on() {
+  if (govClicked == false && islamClicked == false) {
+    gov_islam1.style.borderTop = "4px solid #D6D6D6";
+    gov_islam2.style.borderTop = "4px solid #D6D6D6";
+    gov_islam3.style.borderTop = "4px solid #D6D6D6";
+  } else {
+    gov_islam1.style.borderTop = "4px solid #eb6e6e"; //red
+    gov_islam2.style.borderTop = "4px solid #eb6e6e";
+    gov_islam3.style.borderTop = "4px solid #eb6e6e";
+  }
+};
+
+function gov_islam_off() {
+  if (govClicked == false && islamClicked == false) {
+    gov_islam1.style.borderTop = "3px solid #D6D6D6";
+    gov_islam2.style.borderTop = "3px solid #D6D6D6";
+    gov_islam3.style.borderTop = "3px solid #D6D6D6";
+  } else {
+    gov_islam1.style.borderTop = "3px solid #EBAEAE"; //red
+    gov_islam2.style.borderTop = "3px solid #EBAEAE";
+    gov_islam3.style.borderTop = "3px solid #EBAEAE";
+  }
+};
+
+gov_islam1.onmousemove = gov_islam_on;
+gov_islam2.onmousemove = gov_islam_on;
+gov_islam3.onmousemove = gov_islam_on;
+gov_islam1.onmouseout = gov_islam_off;
+gov_islam2.onmouseout = gov_islam_off;
+gov_islam3.onmouseout = gov_islam_off;
+
+let kurds_islam = document.getElementById("l37");
+kurds_islam.onmousemove = function() {
+  if (islamClicked == false && kurdsClicked == false) {
+    kurds_islam.style.borderTop = "4px solid #D6D6D6";
+  } else {
+    kurds_islam.style.borderTop = "4px solid #eb6e6e"; //red
+  }
+};
+
+kurds_islam.onmouseout = function() {
+  if (islamClicked == false && kurdsClicked == false) {
+    kurds_islam.style.borderTop = "3px solid #D6D6D6";
+  } else {
+    kurds_islam.style.borderTop = "3px solid #EBAEAE"; //red
+  }
+};
+
+let gov_us1 = document.getElementById("l41");
+let gov_us2 = document.getElementById("l42");
+let gov_us3 = document.getElementById("l43");
+
+function gov_us_on() {
+  if (intClicked == false) {
+    gov_us1.style.borderTop = "4px solid #D6D6D6";
+    gov_us2.style.borderTop = "4px solid #D6D6D6";
+    gov_us3.style.borderTop = "4px solid #D6D6D6";
+  } else {
+    gov_us1.style.borderTop = "4px solid #eb6e6e"; //red
+    gov_us2.style.borderTop = "4px solid #eb6e6e";
+    gov_us3.style.borderTop = "4px solid #eb6e6e";
+  }
+};
+
+function gov_us_off() {
+  if (intClicked == false) {
+    gov_us1.style.borderTop = "3px solid #D6D6D6";
+    gov_us2.style.borderTop = "3px solid #D6D6D6";
+    gov_us3.style.borderTop = "3px solid #D6D6D6";
+  } else {
+    gov_us1.style.borderTop = "3px solid #EBAEAE"; //red
+    gov_us2.style.borderTop = "3px solid #EBAEAE";
+    gov_us3.style.borderTop = "3px solid #EBAEAE";
+  }
+};
+
+gov_us1.onmousemove = gov_us_on;
+gov_us2.onmousemove = gov_us_on;
+gov_us3.onmousemove = gov_us_on;
+gov_us1.onmouseout = gov_us_off;
+gov_us2.onmouseout = gov_us_off;
+gov_us3.onmouseout = gov_us_off;
+
+let turkey_islam1 = document.getElementById("l44");
+let turkey_islam2 = document.getElementById("l45");
+
+function turkey_islam_on() {
+  if (intClicked == false) {
+    turkey_islam1.style.borderTop = "4px solid #D6D6D6";
+    turkey_islam2.style.borderTop = "4px solid #D6D6D6";
+  } else {
+    turkey_islam1.style.borderTop = "4px solid #e3e354"; //yellow
+    turkey_islam2.style.borderTop = "4px solid #e3e354";
+  }
+};
+
+function turkey_islam_off() {
+  if (intClicked == false) {
+    turkey_islam1.style.borderTop = "3px solid #D6D6D6";
+    turkey_islam2.style.borderTop = "3px solid #D6D6D6";
+  } else {
+    turkey_islam1.style.borderTop = "3px solid #DEDE8E"; //yellow
+    turkey_islam2.style.borderTop = "3px solid #DEDE8E";
+  }
+};
+
+turkey_islam1.onmousemove = turkey_islam_on;
+turkey_islam2.onmousemove = turkey_islam_on;
+turkey_islam1.onmouseout = turkey_islam_off;
+turkey_islam2.onmouseout = turkey_islam_off;
