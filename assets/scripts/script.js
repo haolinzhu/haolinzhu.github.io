@@ -45,3 +45,28 @@ art.onmouseout = function() {
   art_description.style.display = "none";
   art_pic.style.opacity = "0.5";
 }
+
+//var instagram = document.getElementById("instagram");
+//var instagrampic = document.getElementById("instagrampic");
+//var lightpainting = document.getElementById("lightpainting");
+//var lightpaintingpic = document.getElementById("lightpaintingpic");
+
+var lst = ["instagram", "lightpainting", "beach", "capital"];
+var i;
+
+function hovering(i) {
+  document.getElementById(lst[i]).onmouseover = function() {
+        document.getElementById(lst[i] + "pic").style.opacity = "1";
+  }
+}
+
+function nothovering(i) {
+  document.getElementById(lst[i]).onmouseout = function() {
+        document.getElementById(lst[i] + "pic").style.opacity = "0.5";
+  }
+}
+
+for (i = 0; i < lst.length; i ++) {
+  hovering(i);
+  nothovering(i);
+}

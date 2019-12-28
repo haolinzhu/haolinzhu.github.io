@@ -15,17 +15,25 @@ body {
   text-align: right;
 }
 
+.zh {
+  font-size: 20px;
+}
+
 .hello {
   font-size: 40px;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
+.zhhello {
+  font-size: 30;
+}
+
 .picture {
   opacity: 0.5;
 }
 
-.card:hover {
+.link:hover {
   cursor: pointer;
 }
 
@@ -36,6 +44,16 @@ body {
 
 .card {
   position: absolute;
+}
+
+#lightpainting {
+  top: 53%;
+  left: 10%;
+  /*z-index: -1;*/
+}
+
+#lightpainting img {
+  width: 90px;
 }
 
 #portrait {
@@ -92,16 +110,6 @@ body {
 #artdes {
   margin-top: -26px;
   margin-left: 184px;
-}
-
-#lightpainting {
-  top: 53%;
-  left: 10%;
-  z-index: -1;
-}
-
-#lightpainting img {
-  width: 90px;
 }
 
 #capital {
