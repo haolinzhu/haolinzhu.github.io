@@ -22,8 +22,7 @@ body {
 }
 
 .picture {
-  width: 200px;
-  opacity: 1;
+  opacity: 0.5;
 }
 
 .card:hover {
@@ -36,7 +35,7 @@ body {
 }
 
 .card {
-  position:absolute;
+  position: absolute;
 }
 
 #portrait {
@@ -44,29 +43,41 @@ body {
   left: 15%;
 }
 
+#portrait img {
+  width: 200px;
+}
+
 #abtdes {
-  margin-top: -130px;
-  margin-left: 20px;
+  margin-top: 9px;
+  margin-left: 140px;
 }
 
 #lights {
   top: 20%;
-  left: 35%;
+  left: 37%;
+}
+
+#lights img {
+  width: 200px;
 }
 
 #advdes {
-  margin-top: -120px;
-  margin-left: 50px;
+  margin-top: -180px;
+  margin-left: 77px;
 }
 
-#syria {
-  top: 75%;
-  left: 10%;
+#code {
+  top: 68%;
+  left: 12%;
+}
+
+#code img {
+  width: 170px;
 }
 
 #projdes {
-  margin-top: -50px;
-  margin-left: 50px;
+  margin-top: -320px;
+  margin-left: -102px;
 }
 
 #art {
@@ -74,7 +85,48 @@ body {
   left: 33%;
 }
 
+#art img {
+  width: 170px;;
+}
+
 #artdes {
-  margin-top: -50px;
-  margin-left: 50px;
+  margin-top: -26px;
+  margin-left: 184px;
+}
+
+#lightpainting {
+  top: 53%;
+  left: 10%;
+  z-index: -1;
+}
+
+#lightpainting img {
+  width: 90px;
+}
+
+#capital {
+  top: 73%;
+  left: 26%;
+}
+
+#capital img {
+  width: 90px;
+}
+
+#instagram {
+  top: -2%;
+  left: 26%;
+}
+
+#instagram img {
+  width: 90px;
+}
+
+#beach {
+  top: 83%;
+  left: -0.1%;
+}
+
+#beach img {
+  width: 90px;
 }

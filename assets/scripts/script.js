@@ -3,11 +3,11 @@ let about_description = document.getElementById("abtdes");
 let about_pic = document.getElementById("abtpic");
 portrait.onmouseover = function() {
   about_description.style.display = "block";
-  about_pic.style.opacity = "0.5";
+  about_pic.style.opacity = "1";
 }
 portrait.onmouseout = function() {
   about_description.style.display = "none";
-  about_pic.style.opacity = "1";
+  about_pic.style.opacity = "0.5";
 }
 
 let lights = document.getElementById("lights");
@@ -15,23 +15,23 @@ let lights_description = document.getElementById("advdes");
 let lights_pic = document.getElementById("advpic");
 lights.onmouseover = function() {
   lights_description.style.display = "block";
-  lights_pic.style.opacity = "0.5";
+  lights_pic.style.opacity = "1";
 }
 lights.onmouseout = function() {
   lights_description.style.display = "none";
-  lights_pic.style.opacity = "1";
+  lights_pic.style.opacity = "0.5";
 }
 
-let syria = document.getElementById("syria");
-let syria_description = document.getElementById("projdes");
-let syria_pic = document.getElementById("projpic");
-syria.onmouseover = function() {
-  syria_description.style.display = "block";
-  syria_pic.style.opacity = "0.5";
+let code = document.getElementById("code");
+let code_description = document.getElementById("projdes");
+let code_pic = document.getElementById("projpic");
+code.onmouseover = function() {
+  code_description.style.display = "block";
+  code_pic.style.opacity = "1";
 }
-syria.onmouseout = function() {
-  syria_description.style.display = "none";
-  syria_pic.style.opacity = "1";
+code.onmouseout = function() {
+  code_description.style.display = "none";
+  code_pic.style.opacity = "0.5";
 }
 
 let art = document.getElementById("art");
@@ -39,9 +39,9 @@ let art_description = document.getElementById("artdes");
 let art_pic = document.getElementById("artpic");
 art.onmouseover = function() {
   art_description.style.display = "block";
-  art_pic.style.opacity = "0.5";
+  art_pic.style.opacity = "1";
 }
 art.onmouseout = function() {
   art_description.style.display = "none";
-  art_pic.style.opacity = "1";
+  art_pic.style.opacity = "0.5";
 }
