@@ -25,6 +25,13 @@ body {
   padding-bottom: 10px;
 }
 
+.name {
+  font-size: 20px;
+  position: absolute;
+  top: 2%;
+  left: 2%;
+}
+
 .zhhello {
   font-size: 30;
 }
@@ -49,11 +56,19 @@ body {
 #lightpainting {
   top: 53%;
   left: 10%;
-  /*z-index: -1;*/
 }
 
 #lightpainting img {
   width: 90px;
+}
+
+#syria {
+  top: 38%;
+  left: 31%;
+}
+
+#syria img {
+  width: 80px;
 }
 
 #portrait {
