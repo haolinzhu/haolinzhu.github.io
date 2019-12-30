@@ -6,7 +6,7 @@ body {
   width: 400px;
   position: absolute;
   top: 35%;
-  left: 65%;
+  right: 10%;
 }
 
 .text {
@@ -62,18 +62,22 @@ body {
   width: 90px;
 }
 
-#syria {
+#bug {
   top: 38%;
   left: 31%;
 }
 
-#syria img {
+#bug img {
   width: 80px;
 }
 
 #portrait {
   top: 10%;
   left: 15%;
+}
+
+.zoom:hover {
+  transform: scale(1.25);
 }
 
 #portrait img {
@@ -152,4 +156,23 @@ body {
 
 #beach img {
   width: 90px;
+}
+
+#yosemite {
+  top: 18%;
+  left: 4%;
+}
+
+#yosemite img {
+  width: 90px;
+}
+
+#instagramicon {
+  position: absolute;
+  top: 3%;
+  right: 3%;
+}
+
+#instagramicon img {
+  width: 30px;
 }

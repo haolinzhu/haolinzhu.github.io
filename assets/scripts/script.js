@@ -46,7 +46,7 @@ art.onmouseout = function() {
   art_pic.style.opacity = "0.5";
 }
 
-var lst = ["instagram", "lightpainting", "beach", "capital", "syria"];
+var lst = ["instagram", "lightpainting", "beach", "capital", "bug", "yosemite"];
 var i;
 
 function hovering(i) {
