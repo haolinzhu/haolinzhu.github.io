@@ -1,3 +1,4 @@
+
 let portrait = document.getElementById("portrait");
 let about_description = document.getElementById("abtdes");
 let about_pic = document.getElementById("abtpic");
@@ -64,4 +65,10 @@ function nothovering(i) {
 for (i = 0; i < lst.length; i ++) {
   hovering(i);
   nothovering(i);
+}
+
+document.getElementById("portrait").onclick = function() {
+  document.getElementById("text-container").style.display = "none";
+  document.getElementById("about-text-container").style.display = "inline";
+
 }

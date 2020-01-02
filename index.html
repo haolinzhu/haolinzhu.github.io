@@ -12,9 +12,13 @@
     </div>
 
     <div id="text-container">
-      <div class="text hello">Hello</div>
-      <div class="text">My name is Haolin Zhu</div>
-      <div class="text">I'm a third-year Electrical Engineering & Computer Sciences student at UC Berkeley</div>
+      <div class="text hello">Welcome</div>
+    </div>
+
+    <div id="about-text-container">
+      <div class="text hello">Hello!</div>
+      <div class="text">My name is Haolin Zhu,</div>
+      <div class="text">and I'm a third-year Electrical Engineering & Computer Sciences student at UC Berkeley.</div>
       <div class="text zhhello hello">大家好</div>
       <div class="zh text">我是朱皓霖</div>
       <div class="zh text">加州大学伯克利分校</div>
@@ -31,6 +35,18 @@
       <div id="instagramicon" class="icon">
         <a href="https://www.instagram.com/_.haohao_/" target="_blank">
           <img src="assets/img/instagramicon.png" alt="instagram icon">
+        </a>
+      </div>
+
+      <div id="linkedinicon" class="icon">
+        <a href="https://www.linkedin.com/in/haolinzhu1/" target="_blank">
+          <img src="assets/img/linkedinicon.png" alt="linkedin icon">
+        </a>
+      </div>
+
+      <div id="githubicon" class="icon">
+        <a href="https://github.com/haolinzhu" target="_blank">
+          <img src="assets/img/githubicon.png" alt="github icon">
         </a>
       </div>
     </div>
@@ -80,6 +96,15 @@
     </div>
 
     <script type="text/javascript" src="assets/scripts/script.js"></script>
+
+    <script type="module" src="./node_modules/jump.js/dist/jump.js"></script>
+
+    <script>
+        document.getElementById("instagram").onclick = function() {
+          jump(400);
+        }
+
+    </script>
 
   </body>
 </html>

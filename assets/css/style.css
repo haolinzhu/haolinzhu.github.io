@@ -7,6 +7,17 @@ body {
   position: absolute;
   top: 35%;
   right: 10%;
+  text-align: center;
+  /*margin-top: 1500px;*/
+}
+
+#about-text-container {
+  display: none;
+  width: 400px;
+  position: absolute;
+  top: 35%;
+  right: 10%;*/
+  /*margin-top: 1500px;*/
 }
 
 .text {
@@ -174,14 +185,11 @@ body {
   right: 3%;
 }
 
-#instagramicon img {
-  width: 30px;
-}
-
-#facebookicon img {
-  width: 30px;
-}
-
 .icon {
   padding-left: 15px;
+  width: 30px;
+}
+
+.icon img {
+  width: 30px;
 }
