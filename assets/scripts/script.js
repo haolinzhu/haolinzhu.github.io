@@ -67,8 +67,22 @@ for (i = 0; i < lst.length; i ++) {
   nothovering(i);
 }
 
-document.getElementById("portrait").onclick = function() {
-  document.getElementById("text-container").style.display = "none";
-  document.getElementById("about-text-container").style.display = "inline";
+var lst_u = ["portrait", "code", "lights"];
+var j;
 
+function clicked(j) {
+  document.getElementById(lst_u[j]).onclick = function() {
+        document.getElementById(lst_u[j] + "-text-container").scrollIntoView();
+  }
 }
+
+for (j = 0; j < lst_u.length; j ++) {
+  clicked(j);
+}
+//document.getElementById("portrait").onclick = function() {
+//  document.getElementById("portrait-text-container").scrollIntoView();
+//}
+
+//document.getElementById("code").onclick = function() {
+//  document.getElementById("code-text-container").scrollIntoView();
+//}

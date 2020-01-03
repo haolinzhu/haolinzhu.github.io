@@ -1,52 +1,78 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #FFFFFF;
 }
 
-#text-container {
+#welcome-text-container {
   width: 400px;
   position: absolute;
   top: 35%;
   right: 10%;
   text-align: center;
-  /*margin-top: 1500px;*/
 }
 
-#about-text-container {
-  display: none;
+#portrait-text-container {
   width: 400px;
   position: absolute;
-  top: 35%;
-  right: 10%;*/
-  /*margin-top: 1500px;*/
+  top: 100%;
+  right: 10%;
+}
+
+#code-text-container {
+  width: 400px;
+  position: absolute;
+  top: 200%;
+  right: 10%;
+}
+
+#lights-text-container {
+  width: 400px;
+  position: absolute;
+  top: 300%;
+  right: 10%;
 }
 
 .text {
   font-family: 'Kulim Park', sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   text-align: right;
+  padding-bottom: 20px;
 }
 
+.title {
+  font-size: 25px;
+}
+
+.inner-text {
+  position: absolute;
+  margin-top: 50%;
+}
+
+/*
 .zh {
   font-size: 20px;
 }
-
+*/
 .hello {
   font-size: 40px;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 30px;
 }
 
-.name {
+#name {
   font-size: 20px;
-  position: absolute;
+  position: fixed;
   top: 2%;
   left: 2%;
 }
-
+/*
 .zhhello {
   font-size: 30;
 }
-
+*/
 .picture {
   opacity: 0.5;
 }
@@ -61,7 +87,7 @@ body {
 }
 
 .card {
-  position: absolute;
+  position: fixed;
 }
 
 #lightpainting {
@@ -180,7 +206,7 @@ body {
 
 #iconcontainer {
   display: flex;
-  position: absolute;
+  position: fixed;
   top: 3%;
   right: 3%;
 }
