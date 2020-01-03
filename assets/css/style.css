@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  background: #FFFFFF;
+  background: #F5F5F3;
 }
 
 #welcome-text-container {
@@ -22,33 +22,45 @@ body {
 }
 
 #code-text-container {
-  width: 400px;
+  width: 450px;
   position: absolute;
-  top: 200%;
+  top: 300%;
   right: 10%;
 }
 
 #lights-text-container {
   width: 400px;
   position: absolute;
-  top: 300%;
+  top: 400%;
+  right: 10%;
+}
+
+#engineering-text-container {
+  width: 400px;
+  position: absolute;
+  top: 200%;
   right: 10%;
 }
 
 .text {
   font-family: 'Kulim Park', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   text-align: right;
   padding-bottom: 20px;
 }
 
 .title {
   font-size: 25px;
+  font-weight: bold;
+}
+
+.ctext {
+  font-size: 20px;
 }
 
 .inner-text {
   position: absolute;
-  margin-top: 50%;
+  margin-top: 40%;
 }
 
 /*
@@ -81,6 +93,10 @@ body {
   cursor: pointer;
 }
 
+.zoom:hover {
+  transform: scale(1.1);
+}
+
 .description {
   position: absolute;
   display: none;
@@ -88,11 +104,6 @@ body {
 
 .card {
   position: fixed;
-}
-
-#lightpainting {
-  top: 53%;
-  left: 10%;
 }
 
 #lightpainting img {
@@ -109,21 +120,12 @@ body {
 }
 
 #portrait {
-  top: 10%;
-  left: 15%;
-}
-
-.zoom:hover {
-  transform: scale(1.25);
+  top: 12%;
+  left: 18%;
 }
 
 #portrait img {
   width: 200px;
-}
-
-#abtdes {
-  margin-top: 9px;
-  margin-left: 140px;
 }
 
 #lights {
@@ -135,11 +137,6 @@ body {
   width: 200px;
 }
 
-#advdes {
-  margin-top: -180px;
-  margin-left: 77px;
-}
-
 #code {
   top: 68%;
   left: 12%;
@@ -149,23 +146,47 @@ body {
   width: 170px;
 }
 
-#projdes {
-  margin-top: -320px;
-  margin-left: -102px;
-}
-
 #art {
   top: 50%;
   left: 33%;
 }
 
 #art img {
-  width: 170px;;
+  width: 170px;
+}
+
+#engineering {
+  top: 19%;
+  left: 6%;
+}
+
+#engineering img {
+  width: 140px;
+}
+
+#portraitdes {
+  margin-top: 8px;
+  margin-left: 0px;
+}
+
+#lightsdes {
+  margin-top: -175px;
+  margin-left: 104px;
+}
+
+#codedes {
+  margin-top: -260px;
+  margin-left: -85px;
 }
 
 #artdes {
-  margin-top: -26px;
+  margin-top: -22px;
   margin-left: 184px;
+}
+
+#engineeringdes {
+  margin-top: 8px;
+  margin-left: 52px;
 }
 
 #capital {
@@ -179,7 +200,7 @@ body {
 
 #instagram {
   top: -2%;
-  left: 26%;
+  left: 34%;
 }
 
 #instagram img {
@@ -195,13 +216,36 @@ body {
   width: 90px;
 }
 
+#lightpainting {
+  top: 12%;
+  left: 3%;
+}
+
 #yosemite {
-  top: 18%;
-  left: 4%;
+  top: 62%;
+  left: 8%;
 }
 
 #yosemite img {
   width: 90px;
+}
+
+#kaiping {
+  top: 6%;
+  left: 40%;
+}
+
+#kaiping img {
+  width: 50px;
+}
+
+#library {
+  top: 90%;
+  left: 43%;
+}
+
+#library img {
+  width: 60px;
 }
 
 #iconcontainer {
