@@ -35,11 +35,32 @@ body {
   right: 10%;
 }
 
-#engineering-text-container {
+#art-text-container {
   width: 400px;
+  position: absolute;
+  top: 500%;
+  right: 10%;
+}
+
+#credits-text-container {
+  width: 400px;
+  position: absolute;
+  top: 600%;
+  right: 10%;
+}
+
+#engineering-text-container {
+  width: 300px;
   position: absolute;
   top: 200%;
   right: 10%;
+}
+
+#engineering-text-container-2 {
+  width: 300px;
+  position: absolute;
+  top: 200%;
+  right: 17%;
 }
 
 .text {
@@ -54,7 +75,15 @@ body {
   font-weight: bold;
 }
 
-.ctext {
+.mtext {
+  font-size: 20px;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.portraittext {
   font-size: 20px;
 }
 
