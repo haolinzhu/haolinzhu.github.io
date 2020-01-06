@@ -103,7 +103,7 @@ body {
 
 .inner-text-3 {
   /*border-style: solid;*/
-  margin-top: 40%;
+  margin-top: 25%;
   width: 430px;
   display: flex;
   flex-direction: row;
@@ -115,7 +115,6 @@ body {
   position: absolute;
   margin-top: 40%;
   /*border-style: solid;*/
-
 }
 
 .hello {
@@ -226,7 +225,7 @@ body {
 }
 
 #artdes {
-  margin-top: -22px;
+  margin-top: -265px;
   margin-left: 184px;
 }
 
