@@ -79,10 +79,11 @@ body {
   color: gray;
 }
 
-a {
+.nostyle {
   text-decoration: none;
   color: black;
 }
+
 .hovere:hover {
   text-decoration: underline;
 }
@@ -163,7 +164,7 @@ a {
 }
 
 .card {
-  position: fixed;
+  position: absolute;
 }
 
 #lightpainting img {
