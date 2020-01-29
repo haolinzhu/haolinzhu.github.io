@@ -63,7 +63,7 @@ body {
 }
 
 .title {
-  font-size: 25px;
+  font-size: 23px;
   font-weight: bold;
 }
 
@@ -71,12 +71,20 @@ body {
   font-size: 20px;
 }
 
+.stext {
+  font-size: 18px;
+}
+
+.gray {
+  color: gray;
+}
+
 a {
   text-decoration: none;
   color: black;
 }
 .hovere:hover {
-  background: white;
+  text-decoration: underline;
 }
 .mpadding {
   padding-bottom: 12px;
@@ -105,13 +113,13 @@ a {
 
 .inner-text-2 {
   /*border-style: solid;*/
-  width: 150px;
+  width: 170px;
 }
 
 .inner-text-3 {
   /*border-style: solid;*/
   margin-top: 25%;
-  width: 430px;
+  width: 450px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
