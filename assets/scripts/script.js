@@ -1,5 +1,5 @@
 
-var lst = ["instagram", "lightpainting", "beach", "capital", "bug", "yosemite", "kaiping", "library"];
+var lst = ["instagram", "lightpainting", "beach", "capital", "bug", "yosemite", "kaiping", "library", "kaust"];
 var i;
 
 function hovering(i) {

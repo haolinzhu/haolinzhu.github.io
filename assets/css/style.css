@@ -199,8 +199,9 @@ body {
 }
 
 #code {
-  top: 68%;
+  /*top: 68%;*/
   left: 12%;
+  bottom: 0%;
 }
 
 #code img {
@@ -236,7 +237,7 @@ body {
 }
 
 #codedes {
-  margin-top: -260px;
+  margin-top: -180px;
   margin-left: -85px;
 }
 
@@ -307,6 +308,15 @@ body {
 
 #library img {
   width: 60px;
+}
+
+#kaust img {
+  width: 90px;
+}
+
+#kaust {
+  top: 150%;
+  left: 0%;
 }
 
 #iconcontainer {
