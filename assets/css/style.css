@@ -140,14 +140,10 @@ body {
 }
 
 #name {
-  font-size: 23px;
+  font-size: 27px;
   position: fixed;
   top: 3%;
   left: 2%;
-}
-
-.picture {
-  opacity: 0.5;
 }
 
 .link:hover {
@@ -165,6 +161,10 @@ body {
 
 .card {
   position: absolute;
+}
+
+img {
+  filter: grayscale(100%);
 }
 
 #lightpainting img {
@@ -199,7 +199,6 @@ body {
 }
 
 #code {
-  /*top: 68%;*/
   left: 12%;
   bottom: 0%;
 }

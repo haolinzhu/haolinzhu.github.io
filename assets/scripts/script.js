@@ -4,11 +4,11 @@ var i;
 
 function hovering(i) {
   document.getElementById(lst[i]).onmouseover = function() {
-        document.getElementById(lst[i] + "pic").style.opacity = "1";
+        document.getElementById(lst[i] + "pic").style.filter = "none";
   }
 
   document.getElementById(lst[i]).onmouseout = function() {
-        document.getElementById(lst[i] + "pic").style.opacity = "0.5";
+        document.getElementById(lst[i] + "pic").style.filter = "grayscale(100%)";
   }
 }
 
@@ -34,12 +34,12 @@ function clicked_or_hover(j) {
 
   document.getElementById(lst_u[j]).onmouseover = function() {
         document.getElementById(lst_u[j] + "des").style.display = "block";
-        document.getElementById(lst_u[j] + "pic").style.opacity = "1";
+        document.getElementById(lst_u[j] + "pic").style.filter = "none";
   }
 
   document.getElementById(lst_u[j]).onmouseout = function() {
         document.getElementById(lst_u[j] + "des").style.display = "none";
-        document.getElementById(lst_u[j] + "pic").style.opacity = "0.5";
+        document.getElementById(lst_u[j] + "pic").style.filter = "grayscale(100%)";
   }
 }
 
