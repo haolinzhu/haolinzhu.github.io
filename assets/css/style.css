@@ -127,6 +127,11 @@ body {
   justify-content: space-between;
 }
 
+.code-inner-text {
+  position: absolute;
+  margin-top: 20%;
+}
+
 .inner-text {
   position: absolute;
   margin-top: 40%;
