@@ -46,3 +46,7 @@ function clicked_or_hover(j) {
 for (j = 0; j < lst_u.length; j ++) {
   clicked_or_hover(j);
 }
+
+document.getElementById("back-to-top-1").onclick = function() {
+      window.scrollTo(0, 0); 
+}

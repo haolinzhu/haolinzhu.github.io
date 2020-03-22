@@ -21,6 +21,12 @@ body {
   right: 10%;
 }
 
+#back-to-top-1 {
+  position: absolute;
+  top: 190%;
+  right: 10%;
+}
+
 #code-text-container {
   width: 450px;
   position: absolute;
@@ -84,7 +90,7 @@ body {
   color: black;
 }
 
-.hovere:hover {
+.hover-underline:hover {
   text-decoration: underline;
 }
 .mpadding {
