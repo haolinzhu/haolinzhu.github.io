@@ -27,6 +27,18 @@ body {
   right: 10%;
 }
 
+#back-to-top-2 {
+  position: absolute;
+  top: 290%;
+  right: 10%;
+}
+
+#back-to-top-3 {
+  position: absolute;
+  top: 390%;
+  right: 10%;
+}
+
 #code-text-container {
   width: 450px;
   position: absolute;
@@ -81,6 +93,10 @@ body {
   font-size: 18px;
 }
 
+.ttext {
+  font-size: 16px;
+}
+
 .gray {
   color: gray;
 }
@@ -125,7 +141,7 @@ body {
 
 .inner-text-3 {
   /*border-style: solid;*/
-  margin-top: 25%;
+  margin-top: 18%;
   width: 450px;
   display: flex;
   flex-direction: row;
@@ -176,6 +192,11 @@ body {
 
 img {
   filter: grayscale(100%);
+}
+
+#lightpainting {
+  top: 42%;
+  left: 1%;
 }
 
 #lightpainting img {
@@ -286,11 +307,6 @@ img {
 
 #beach img {
   width: 90px;
-}
-
-#lightpainting {
-  top: 12%;
-  left: 3%;
 }
 
 #yosemite {
