@@ -54,10 +54,24 @@ body {
 }
 
 #art-text-container {
-  width: 400px;
+  width: 1400px;
+  height: 800px;
   position: absolute;
   top: 500%;
-  right: 10%;
+  /* border-style: solid; */
+
+}
+
+#art-flex-container {
+  padding-top: 150px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sb {
+  width: 300px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+  margin: 10px;
 }
 
 #credits-text-container {
@@ -201,6 +215,7 @@ img {
 
 #lightpainting img {
   width: 90px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 #bug {
@@ -210,6 +225,7 @@ img {
 
 #bug img {
   width: 80px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 #portrait {
@@ -219,6 +235,7 @@ img {
 
 #portrait img {
   width: 200px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 #lights {
@@ -228,6 +245,7 @@ img {
 
 #lights img {
   width: 200px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 #code {
@@ -237,6 +255,7 @@ img {
 
 #code img {
   width: 170px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 #art {
@@ -246,6 +265,7 @@ img {
 
 #art img {
   width: 170px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 #engineering {
@@ -255,6 +275,7 @@ img {
 
 #engineering img {
   width: 140px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 #portraitdes {
@@ -289,6 +310,7 @@ img {
 
 #capital img {
   width: 90px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 #instagram {
@@ -298,6 +320,7 @@ img {
 
 #instagram img {
   width: 90px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 #beach {
@@ -307,6 +330,7 @@ img {
 
 #beach img {
   width: 90px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 #yosemite {
@@ -316,6 +340,7 @@ img {
 
 #yosemite img {
   width: 90px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 #kaiping {
@@ -325,6 +350,7 @@ img {
 
 #kaiping img {
   width: 50px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 #library {
@@ -334,15 +360,17 @@ img {
 
 #library img {
   width: 60px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 #kaust img {
-  width: 90px;
+  width: 75px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 #kaust {
-  top: 150%;
-  left: 0%;
+  top: 0%;
+  left: 49%;
 }
 
 #iconcontainer {

@@ -24,12 +24,12 @@ var j;
 function clicked_or_hover(j) {
   document.getElementById(lst_u[j]).onclick = function() {
         document.getElementById(lst_u[j] + "-text-container").scrollIntoView();
-        document.getElementById(lst_u[j]).style.position = "fixed";
-        for (k = 0; k < lst_u.length; k ++) {
-          if (k != j) {
-            document.getElementById(lst_u[k]).style.position = "absolute";
-          }
-        }
+        // document.getElementById(lst_u[j]).style.position = "fixed";
+        // for (k = 0; k < lst_u.length; k ++) {
+        //   if (k != j) {
+        //     document.getElementById(lst_u[k]).style.position = "absolute";
+        //   }
+        // }
   }
 
   document.getElementById(lst_u[j]).onmouseover = function() {
