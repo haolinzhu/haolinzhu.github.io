@@ -53,27 +53,63 @@ body {
   right: 10%;
 }
 
+/* ---------------------- scratchboard ------------------- */
 #art-text-container {
   width: 1400px;
   height: 800px;
   position: absolute;
-  top: 500%;
-  /* border-style: solid; */
-
+  top: 550%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 #art-flex-container {
-  padding-top: 150px;
+  padding-top: 120px;
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .sb {
-  width: 300px;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
-  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
 }
 
+.sb-text {
+  margin-top: 10px;
+}
+
+.sb-text {
+  cursor: pointer;
+}
+
+.sb-container {
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.sb-container img {
+  width: 300px;
+  height: 200px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+  transition: transform .5s ease;
+}
+
+.sb-container:hover img {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+
+#back-to-top-5 {
+  position: absolute;
+  top: 590%;
+  right: 10%;
+}
+
+/* ---------------------- credits ------------------- */
 #credits-text-container {
   width: 400px;
   position: absolute;
@@ -189,6 +225,10 @@ body {
 
 .link:hover {
   cursor: pointer;
+}
+
+.zoom {
+  transition: transform .5s ease;
 }
 
 .zoom:hover {

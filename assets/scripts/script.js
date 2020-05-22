@@ -47,7 +47,7 @@ for (j = 0; j < lst_u.length; j ++) {
   clicked_or_hover(j);
 }
 
-var num = ["1", "2", "3"]
+var num = ["1", "2", "3", "5"]
 for (i = 0; i < num.length; i ++) {
   document.getElementById("back-to-top-" + num[i]).onclick = function() {
         window.scrollTo(0, 0);
