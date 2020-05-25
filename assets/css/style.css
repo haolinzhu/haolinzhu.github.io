@@ -53,6 +53,14 @@ body {
   right: 10%;
 }
 
+#polaroid {
+  width: 300px;
+  position: absolute;
+  top: 120%;
+  left: 20%;
+  filter: none;
+}
+
 /* ---------------------- scratchboard ------------------- */
 #art-text-container {
   width: 1400px;
