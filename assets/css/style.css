@@ -52,13 +52,17 @@ body {
   top: 400%;
   right: 10%;
 }
+/* ---------------------- about --------------------------- */
 
 #polaroid {
-  width: 300px;
   position: absolute;
   top: 120%;
   left: 20%;
-  filter: none;
+}
+
+#polaroid img {
+  width: 300px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 /* ---------------------- scratchboard ------------------- */
@@ -252,12 +256,12 @@ body {
   position: absolute;
 }
 
-img {
+/* img {
   filter: grayscale(100%);
-}
+} */
 
 #lightpainting {
-  top: 42%;
+  top: 47%;
   left: 1%;
 }
 
@@ -267,8 +271,8 @@ img {
 }
 
 #bug {
-  top: 38%;
-  left: 31%;
+  top: 28%;
+  left: 33%;
 }
 
 #bug img {
@@ -278,55 +282,35 @@ img {
 
 #portrait {
   top: 12%;
-  left: 18%;
-}
-
-#portrait img {
-  width: 200px;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+  left: 15%;
 }
 
 #lights {
-  top: 20%;
-  left: 37%;
-}
-
-#lights img {
-  width: 200px;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+  top: 16%;
+  left: 68%;
 }
 
 #code {
-  left: 12%;
-  bottom: 0%;
-}
-
-#code img {
-  width: 170px;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+  left: 25%;
+  bottom: 5%;
 }
 
 #art {
-  top: 50%;
-  left: 33%;
-}
-
-#art img {
-  width: 170px;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+  top: 61%;
+  left: 55%;
 }
 
 #engineering {
-  top: 19%;
-  left: 6%;
+  top: 7%;
+  left: 41%;
 }
 
-#engineering img {
-  width: 140px;
+.info-card img {
+  width: 230px;
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
 
-#portraitdes {
+/* #portraitdes {
   margin-top: 8px;
   margin-left: 0px;
 }
@@ -349,11 +333,11 @@ img {
 #engineeringdes {
   margin-top: 8px;
   margin-left: 52px;
-}
+} */
 
 #capital {
-  top: 73%;
-  left: 26%;
+  top: 23%;
+  left: 7%;
 }
 
 #capital img {
@@ -362,8 +346,8 @@ img {
 }
 
 #instagram {
-  top: -2%;
-  left: 34%;
+  top: 2%;
+  left: 60%;
 }
 
 #instagram img {
@@ -372,8 +356,8 @@ img {
 }
 
 #beach {
-  top: 83%;
-  left: -0.1%;
+  top: 72%;
+  left: 79%;
 }
 
 #beach img {
@@ -382,8 +366,8 @@ img {
 }
 
 #yosemite {
-  top: 62%;
-  left: 8%;
+  top: 72%;
+  left: 10%;
 }
 
 #yosemite img {
@@ -392,8 +376,8 @@ img {
 }
 
 #kaiping {
-  top: 6%;
-  left: 40%;
+  top: 48%;
+  left: 49%;
 }
 
 #kaiping img {
@@ -403,7 +387,7 @@ img {
 
 #library {
   top: 85%;
-  left: 43.9%;
+  left: 48%;
 }
 
 #library img {
@@ -417,8 +401,18 @@ img {
 }
 
 #kaust {
-  top: 0%;
-  left: 49%;
+  top: 24%;
+  left: 91%;
+}
+
+#dubai img {
+  width: 75px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+#dubai {
+  top: 54%;
+  left: 85%;
 }
 
 #iconcontainer {
