@@ -70,7 +70,7 @@ body {
   width: 1400px;
   height: 800px;
   position: absolute;
-  top: 550%;
+  top: 450%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -117,7 +117,7 @@ body {
 
 #back-to-top-5 {
   position: absolute;
-  top: 590%;
+  top: 490%;
   right: 10%;
 }
 
@@ -125,7 +125,7 @@ body {
 #credits-text-container {
   width: 400px;
   position: absolute;
-  top: 600%;
+  top: 475%;
   right: 10%;
 }
 
@@ -133,6 +133,12 @@ body {
   position: absolute;
   top: 200%;
   right: 10%;
+}
+
+#engineering-text-container-left {
+  position: absolute;
+  top: 200%;
+  right: 45%;
 }
 
 .text {
@@ -196,14 +202,21 @@ body {
   width: 250px;
 }
 
-.inner-text-2 {
-  /*border-style: solid;*/
+.section-title {
   width: 170px;
 }
 
 .inner-text-3 {
-  /*border-style: solid;*/
   margin-top: 18%;
+  width: 450px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.engineering-text {
+  margin-top: 35%;
   width: 450px;
   display: flex;
   flex-direction: row;
@@ -256,10 +269,6 @@ body {
   position: absolute;
 }
 
-/* img {
-  filter: grayscale(100%);
-} */
-
 #lightpainting {
   top: 47%;
   left: 1%;
@@ -267,7 +276,6 @@ body {
 
 #lightpainting img {
   width: 90px;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 #bug {
@@ -277,7 +285,6 @@ body {
 
 #bug img {
   width: 80px;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 #portrait {
@@ -292,11 +299,11 @@ body {
 
 #code {
   left: 25%;
-  bottom: 5%;
+  bottom: 6%;
 }
 
 #art {
-  top: 61%;
+  top: 60%;
   left: 55%;
 }
 
@@ -305,35 +312,13 @@ body {
   left: 41%;
 }
 
-.info-card img {
-  width: 230px;
+.card img {
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
 
-/* #portraitdes {
-  margin-top: 8px;
-  margin-left: 0px;
+.info-card img {
+  width: 220px;
 }
-
-#lightsdes {
-  margin-top: -175px;
-  margin-left: 104px;
-}
-
-#codedes {
-  margin-top: -180px;
-  margin-left: -85px;
-}
-
-#artdes {
-  margin-top: -265px;
-  margin-left: 184px;
-}
-
-#engineeringdes {
-  margin-top: 8px;
-  margin-left: 52px;
-} */
 
 #capital {
   top: 23%;
@@ -342,7 +327,6 @@ body {
 
 #capital img {
   width: 90px;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 #instagram {
@@ -352,17 +336,15 @@ body {
 
 #instagram img {
   width: 90px;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 #beach {
-  top: 72%;
-  left: 79%;
+  top: 68%;
+  left: 73%;
 }
 
 #beach img {
-  width: 90px;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+  width: 60px;
 }
 
 #yosemite {
@@ -372,7 +354,6 @@ body {
 
 #yosemite img {
   width: 90px;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 #kaiping {
@@ -382,7 +363,6 @@ body {
 
 #kaiping img {
   width: 50px;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 #library {
@@ -392,12 +372,10 @@ body {
 
 #library img {
   width: 60px;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 #kaust img {
   width: 75px;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 #kaust {
@@ -407,12 +385,45 @@ body {
 
 #dubai img {
   width: 75px;
-  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 #dubai {
   top: 54%;
   left: 85%;
+}
+
+#camera {
+  right: 5%;
+  bottom: 5%;
+  width: 135px;
+  transform: rotate(15deg);
+}
+
+#camera:hover {
+  transform: scale(1.1);
+}
+
+#camera-small {
+  left: 27%;
+  bottom: -195%;
+  width: 80px;
+  transform: rotate(5deg);
+}
+
+#camera-small:hover {
+  transform: scale(1.1);
+}
+
+#group {
+  left: 7%;
+  top: 258%;
+  width: 200px;
+  transform: rotate(-15deg);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+#group:hover {
+  transform: scale(1.1);
 }
 
 #iconcontainer {

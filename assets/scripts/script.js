@@ -6,10 +6,6 @@ function hovering(i) {
   document.getElementById(lst[i]).onmouseover = function() {
         document.getElementById(lst[i] + "pic").style.filter = "none";
   }
-
-//   document.getElementById(lst[i]).onmouseout = function() {
-//         document.getElementById(lst[i] + "pic").style.filter = "grayscale(100%)";
-//   }
 }
 
 for (i = 0; i < lst.length; i ++) {
@@ -32,7 +28,6 @@ function clicked_or_hover(j) {
 
   document.getElementById(lst_u[j]).onmouseout = function() {
         document.getElementById(lst_u[j] + "des").style.display = "none";
-      //   document.getElementById(lst_u[j] + "pic").style.filter = "grayscale(100%)";
   }
 }
 
