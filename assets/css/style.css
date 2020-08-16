@@ -40,10 +40,17 @@ body {
 }
 
 #code-text-container {
-  width: 450px;
+  width: 400px;
   position: absolute;
   top: 300%;
-  right: 10%;
+  right: 8%;
+}
+
+#code-text-container-left {
+  width: 400px;
+  position: absolute;
+  top: 300%;
+  right: 45%;
 }
 
 #lights-text-container {
@@ -278,13 +285,13 @@ body {
   width: 90px;
 }
 
-#bug {
-  top: 28%;
-  left: 33%;
+#kaiping {
+  top: 25%;
+  left: 34%;
 }
 
-#bug img {
-  width: 80px;
+#kaiping img {
+  width: 70px;
 }
 
 #portrait {
@@ -292,7 +299,7 @@ body {
   left: 15%;
 }
 
-#lights {
+#engineering {
   top: 16%;
   left: 68%;
 }
@@ -307,7 +314,7 @@ body {
   left: 55%;
 }
 
-#engineering {
+#lights {
   top: 7%;
   left: 41%;
 }
@@ -330,12 +337,12 @@ body {
 }
 
 #instagram {
-  top: 2%;
+  top: 35%;
   left: 60%;
 }
 
 #instagram img {
-  width: 90px;
+  width: 70px;
 }
 
 #beach {
@@ -356,17 +363,17 @@ body {
   width: 90px;
 }
 
-#kaiping {
+#bug {
   top: 48%;
-  left: 49%;
+  left: 45%;
 }
 
-#kaiping img {
+#bug img {
   width: 50px;
 }
 
 #library {
-  top: 85%;
+  bottom: 2%;
   left: 48%;
 }
 
@@ -390,6 +397,15 @@ body {
 #dubai {
   top: 54%;
   left: 85%;
+}
+
+#merlion img {
+  width: 75px;
+}
+
+#merlion {
+  top: 2%;
+  left: 65%;
 }
 
 #camera {
@@ -417,12 +433,35 @@ body {
 #group {
   left: 7%;
   top: 258%;
-  width: 200px;
+  width: 210px;
   transform: rotate(-15deg);
   box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
 }
 
 #group:hover {
+  transform: scale(1.1);
+}
+
+#resume {
+  left: 7%;
+  top: 355%;
+  width: 230px;
+  transform: rotate(-10deg);
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.2);
+}
+
+#resume:hover {
+  transform: scale(1.1);
+}
+
+#viasat {
+  left: 55%;
+  top: 303%;
+  width: 150px;
+  transform: rotate(8deg);
+}
+
+#viasat:hover {
   transform: scale(1.1);
 }
 
