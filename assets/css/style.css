@@ -373,12 +373,21 @@ body {
 }
 
 #library {
-  bottom: 2%;
+  bottom: 12%;
   left: 48%;
 }
 
 #library img {
   width: 60px;
+}
+
+#baby {
+  bottom: 2%;
+  left: 18%;
+}
+
+#baby img {
+  width: 55px;
 }
 
 #kaust img {
